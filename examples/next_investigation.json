@@ -1,0 +1,41 @@
+{
+  "state": "A 38-year-old man from a rural East African farming community presents with a 10-week history of progressive, painless, bilateral visual loss and reduced color vision. He also reports bilateral hearing difficulty that has developed over the same period, and burning pain in both feet. He eats a cassava-based diet and has never smoked or drunk alcohol. On examination, Snellen acuity is 6/60 in each eye with a central scotoma bilaterally on Amsler grid testing. Dilated fundus examination shows bilateral temporal optic disc pallor. Serum folate, vitamin B12, RPR, HIV and HTLV-1 testing and serum thiocyanate levels have not been obtained. Optical coherence tomography has not been performed. He has no family history of visual loss.",
+  "questions": {
+    "inv_laboratory_or_serology_workup_acceptable": {
+      "type": "noul",
+      "instructions": "In the current state, is 'Laboratory / serology work-up (inflammatory and infectious markers)' an acceptable next investigation?",
+      "criteria": {
+        "true": "acceptable or preferred now",
+        "false": "not appropriate now"
+      }
+    },
+    "inv_orbital_or_neuro_imaging_ct_mri_acceptable": {
+      "type": "noul",
+      "instructions": "In the current state, is 'Orbital or neuro-imaging (CT or MRI)' an acceptable next investigation?",
+      "criteria": {
+        "true": "acceptable or preferred now",
+        "false": "not appropriate now"
+      }
+    },
+    "inv_oct_macula_or_rnfl_acceptable": {
+      "type": "noul",
+      "instructions": "In the current state, is 'OCT of the macula and/or optic nerve head RNFL' an acceptable next investigation?",
+      "criteria": {
+        "true": "acceptable or preferred now",
+        "false": "not appropriate now"
+      }
+    },
+    "inv_preferred": {
+      "type": "choice",
+      "instructions": "What is the most appropriate next investigation for the decision at hand? Choose one.",
+      "criteria": {
+        "clarify_history_or_symptoms": "Clarify history, medications, family history or symptom details",
+        "laboratory_or_serology_workup": "Laboratory / serology work-up (inflammatory and infectious markers)",
+        "orbital_or_neuro_imaging_ct_mri": "Orbital or neuro-imaging (CT or MRI)",
+        "oct_macula_or_rnfl": "OCT of the macula and/or optic nerve head RNFL",
+        "genetic_testing": "Genetic testing (single gene or panel; strategy not specified at this level)",
+        "outside_catalog_escalate": "Outside this catalog; escalate for a human decision"
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "state": "History: 62-year-old woman with type 2 diabetes for 7 years, HbA1c 9.9%; diabetic eye screening/review.\n\nRight eye: Visual acuity 6/7.5. Dilated fundus examination: no microaneurysms; no intraretinal haemorrhages; no hard exudates; no cotton-wool spots; no venous beading; no intraretinal microvascular abnormalities; no new vessels at the disc or elsewhere; no vitreous or preretinal haemorrhage. OCT: no macular thickening.\n\nLeft eye: Visual acuity 6/12. Dilated fundus examination: microaneurysms present; no intraretinal haemorrhages; no hard exudates; no cotton-wool spots; no venous beading; no intraretinal microvascular abnormalities; no new vessels at the disc or elsewhere; no vitreous or preretinal haemorrhage. OCT: no macular thickening.",
+  "questions": {
+    "dr_severity_od": {
+      "type": "score",
+      "instructions": "Grade the diabetic retinopathy in the right eye on the International Clinical Diabetic Retinopathy severity scale.",
+      "criteria": [
+        "No apparent retinopathy: no abnormalities",
+        "Mild NPDR: microaneurysms only",
+        "Moderate NPDR: more than just microaneurysms but less than severe NPDR",
+        "Severe NPDR: any of >20 intraretinal haemorrhages in each of 4 quadrants, definite venous beading in 2 or more quadrants, or prominent IRMA in 1 or more quadrants, and no signs of proliferative retinopathy",
+        "PDR: neovascularisation and/or vitreous or preretinal haemorrhage"
+      ]
+    },
+    "dr_severity_os": {
+      "type": "score",
+      "instructions": "Grade the diabetic retinopathy in the left eye on the International Clinical Diabetic Retinopathy severity scale.",
+      "criteria": [
+        "No apparent retinopathy: no abnormalities",
+        "Mild NPDR: microaneurysms only",
+        "Moderate NPDR: more than just microaneurysms but less than severe NPDR",
+        "Severe NPDR: any of >20 intraretinal haemorrhages in each of 4 quadrants, definite venous beading in 2 or more quadrants, or prominent IRMA in 1 or more quadrants, and no signs of proliferative retinopathy",
+        "PDR: neovascularisation and/or vitreous or preretinal haemorrhage"
+      ]
+    },
+    "dme_center_involving_od": {
+      "type": "noul",
+      "instructions": "Is there centre-involving diabetic macular oedema in the right eye (thickening or fluid within the central 1 mm subfield)?",
+      "criteria": {
+        "true": "Macular oedema involves the central subfield",
+        "false": "No macular oedema, or oedema sparing the central subfield"
+      }
+    },
+    "dme_center_involving_os": {
+      "type": "noul",
+      "instructions": "Is there centre-involving diabetic macular oedema in the left eye (thickening or fluid within the central 1 mm subfield)?",
+      "criteria": {
+        "true": "Macular oedema involves the central subfield",
+        "false": "No macular oedema, or oedema sparing the central subfield"
+      }
+    },
+    "referable_dr": {
+      "type": "noul",
+      "instructions": "Does this patient have referable diabetic retinopathy, defined as moderate non-proliferative retinopathy or worse, and/or any diabetic macular oedema, in either eye?",
+      "criteria": {
+        "true": "Refer to an ophthalmologist",
+        "false": "Continue routine screening"
+      }
+    }
+  }
+}

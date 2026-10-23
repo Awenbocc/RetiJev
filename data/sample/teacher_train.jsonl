@@ -1,0 +1,888 @@
+{"idx": "SYN_0064_004", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "SYN_0064_004", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.88789, "start_topical_medical_therapy": 0.10604, "individualized_surgical_evaluation": 0.00194, "escalate_to_specialist_or_mdt": 0.0032, "outside_catalog_escalate": 0.00092}}
+{"idx": "SYN_0188_007", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.99029, "True": 0.00971}}
+{"idx": "SYN_0188_007", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.02033, "True": 0.97967}}
+{"idx": "SYN_0188_007", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.59267, "True": 0.40733}}
+{"idx": "SYN_0188_007", "qid": "mgmt_stop_or_taper_current_therapy_acceptable", "probs": {"False": 0.98757, "True": 0.01243}}
+{"idx": "SYN_0188_007", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.97702, "True": 0.02298}}
+{"idx": "SYN_0188_007", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00267, "start_topical_medical_therapy": 0.95043, "start_systemic_medical_therapy": 0.0287, "stop_or_taper_current_therapy": 0.00183, "individualized_surgical_evaluation": 0.0044, "outside_catalog_escalate": 0.01196}}
+{"idx": "SYN_0308_002", "qid": "inv_genetic_testing_acceptable", "probs": {"False": 0.00407, "True": 0.99593}}
+{"idx": "SYN_0308_002", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.00061, "complete_comprehensive_eye_examination": 0.00166, "genetic_testing": 0.97377, "histopathology_or_biopsy": 0.00656, "clarify_history_or_symptoms": 0.01389, "outside_catalog_escalate": 0.00351}}
+{"idx": "SYN_0455_011", "qid": "inv_ocular_ultrasound_b_scan_acceptable", "probs": {"False": 0.00218, "True": 0.99782}}
+{"idx": "SYN_0455_011", "qid": "inv_preferred", "probs": {"ocular_ultrasound_b_scan": 0.99732, "fluorescein_or_icg_angiography": 0.00117, "laboratory_or_serology_workup": 0.00026, "complete_comprehensive_eye_examination": 0.00063, "outside_catalog_escalate": 0.00063}}
+{"idx": "SYN_0456_001V_EVID", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.04209, "True": 0.95791}}
+{"idx": "SYN_0456_001V_EVID", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00221, "start_topical_medical_therapy": 0.16468, "start_systemic_medical_therapy": 0.6513, "start_intravitreal_or_periocular_therapy": 0.04164, "complete_assessment_before_deciding": 0.12825, "outside_catalog_escalate": 0.01193}}
+{"idx": "SYN_0793_003", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.73106, "True": 0.26894}}
+{"idx": "SYN_0793_003", "qid": "safe_proceed_with_modification_or_precaution_acceptable", "probs": {"False": 0.34865, "True": 0.65135}}
+{"idx": "SYN_0793_003", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.1646, "proceed_with_modification_or_precaution": 0.73768, "defer_until_prerequisite_completed": 0.06055, "escalate_for_specialist_decision": 0.01192, "outside_catalog_escalate": 0.02524}}
+{"idx": "SYN_0803_001", "qid": "mgmt_laser_or_office_procedure_evaluation_acceptable", "probs": {"False": 0.00858, "True": 0.99142}}
+{"idx": "SYN_0803_001", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "SYN_0803_001", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.01637, "laser_or_office_procedure_evaluation": 0.78877, "individualized_surgical_evaluation": 0.12096, "complete_assessment_before_deciding": 0.07337, "escalate_to_specialist_or_mdt": 0.00041, "outside_catalog_escalate": 0.00012}}
+{"idx": "SYN_0842_007", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.1192, "True": 0.8808}}
+{"idx": "SYN_0842_007", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.04209, "True": 0.95791}}
+{"idx": "SYN_0842_007", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.99142, "True": 0.00858}}
+{"idx": "SYN_0842_007", "qid": "mgmt_preferred", "probs": {"complete_assessment_before_deciding": 0.80519, "start_topical_medical_therapy": 0.17966, "observation_monitoring_only": 0.00697, "individualized_surgical_evaluation": 0.00121, "outside_catalog_escalate": 0.00697}}
+{"idx": "SYN_1013_007", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.0017, "True": 0.9983}}
+{"idx": "SYN_1013_007", "qid": "mgmt_preferred", "probs": {"continue_current_management": 0.99776, "start_topical_medical_therapy": 0.00011, "start_systemic_medical_therapy": 0.00011, "laser_or_office_procedure_evaluation": 2e-05, "complete_assessment_before_deciding": 0.00193, "outside_catalog_escalate": 8e-05}}
+{"idx": "SYN_1088_002", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.01243, "True": 0.98757}}
+{"idx": "SYN_1088_002", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.00036, "complete_comprehensive_eye_examination": 0.0003, "orbital_or_neuro_imaging_ct_mri": 0.99854, "outside_catalog_escalate": 0.0008}}
+{"idx": "SYN_1102_001", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.99409, "True": 0.00591}}
+{"idx": "SYN_1102_001", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.00407, "True": 0.99593}}
+{"idx": "SYN_1102_001", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.00025, "gonioscopy": 0.00026, "orbital_or_neuro_imaging_ct_mri": 0.999, "laboratory_or_serology_workup": 0.00022, "outside_catalog_escalate": 0.00028}}
+{"idx": "SYN_1139_102", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.04209, "True": 0.95791}}
+{"idx": "SYN_1139_102", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.95643, "proceed_with_modification_or_precaution": 0.00827, "defer_until_prerequisite_completed": 0.02549, "contraindicated_choose_alternative": 0.00269, "escalate_for_specialist_decision": 0.00569, "outside_catalog_escalate": 0.00144}}
+{"idx": "SYN_1325_007", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.0851, "True": 0.9149}}
+{"idx": "SYN_1325_007", "qid": "mgmt_laser_or_office_procedure_evaluation_acceptable", "probs": {"False": 0.73106, "True": 0.26894}}
+{"idx": "SYN_1325_007", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.98901, "True": 0.01099}}
+{"idx": "SYN_1325_007", "qid": "mgmt_preferred", "probs": {"start_intravitreal_or_periocular_therapy": 0.98735, "laser_or_office_procedure_evaluation": 0.00277, "start_systemic_medical_therapy": 0.00168, "individualized_surgical_evaluation": 0.00023, "observation_monitoring_only": 0.00131, "outside_catalog_escalate": 0.00665}}
+{"idx": "SYN_1351_008", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.32082, "True": 0.67918}}
+{"idx": "SYN_1351_008", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.83548, "True": 0.16452}}
+{"idx": "SYN_1351_008", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.16741, "proceed_with_modification_or_precaution": 0.27602, "defer_until_prerequisite_completed": 0.51567, "contraindicated_choose_alternative": 0.03297, "escalate_for_specialist_decision": 0.00347, "outside_catalog_escalate": 0.00446}}
+{"idx": "SYN_1667_006", "qid": "inv_review_prior_records_or_repeat_test_acceptable", "probs": {"False": 0.07586, "True": 0.92414}}
+{"idx": "SYN_1667_006", "qid": "inv_preferred", "probs": {"review_prior_records_or_repeat_test": 0.7662, "complete_comprehensive_eye_examination": 0.00516, "laboratory_or_serology_workup": 0.00456, "histopathology_or_biopsy": 0.21952, "outside_catalog_escalate": 0.00456}}
+{"idx": "SYN_0025_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.99945, "True": 0.00055}}
+{"idx": "SYN_0025_004", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.09535, "True": 0.90465}}
+{"idx": "SYN_0025_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.00197, "proceed_with_modification_or_precaution": 0.01991, "defer_until_prerequisite_completed": 0.31137, "contraindicated_choose_alternative": 0.65917, "escalate_for_specialist_decision": 0.00732, "outside_catalog_escalate": 0.00027}}
+{"idx": "SYN_0058_006", "qid": "safe_defer_until_prerequisite_completed_acceptable", "probs": {"False": 0.06755, "True": 0.93245}}
+{"idx": "SYN_0058_006", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.0223, "proceed_with_modification_or_precaution": 0.30779, "defer_until_prerequisite_completed": 0.44784, "contraindicated_choose_alternative": 0.21154, "outside_catalog_escalate": 0.01053}}
+{"idx": "SYN_0060_003", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.00091, "True": 0.99909}}
+{"idx": "SYN_0060_003", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.99967, "adjust_current_nonsurgical_management": 4e-05, "individualized_surgical_evaluation": 1e-05, "complete_assessment_before_deciding": 0.00023, "outside_catalog_escalate": 5e-05}}
+{"idx": "SYN_0068_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "SYN_0068_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.87624, "proceed_with_modification_or_precaution": 0.06347, "defer_until_prerequisite_completed": 0.04363, "contraindicated_choose_alternative": 0.00758, "escalate_for_specialist_decision": 0.00758, "outside_catalog_escalate": 0.00149}}
+{"idx": "SYN_0072_009", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.13296, "True": 0.86704}}
+{"idx": "SYN_0072_009", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00141, "continue_current_management": 0.00026, "start_topical_medical_therapy": 0.00071, "escalate_to_specialist_or_mdt": 0.04117, "complete_assessment_before_deciding": 0.93701, "outside_catalog_escalate": 0.01945}}
+{"idx": "SYN_0131_004", "qid": "inv_complete_comprehensive_eye_examination_acceptable", "probs": {"False": 0.06009, "True": 0.93991}}
+{"idx": "SYN_0131_004", "qid": "inv_preferred", "probs": {"complete_comprehensive_eye_examination": 0.23318, "clarify_history_or_symptoms": 0.26423, "review_prior_records_or_repeat_test": 0.01491, "orbital_or_neuro_imaging_ct_mri": 0.43565, "outside_catalog_escalate": 0.05203}}
+{"idx": "SYN_0151_002", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.62246, "True": 0.37754}}
+{"idx": "SYN_0151_002", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.1135, "proceed_with_modification_or_precaution": 0.65315, "defer_until_prerequisite_completed": 0.05361, "contraindicated_choose_alternative": 0.14574, "escalate_for_specialist_decision": 0.0287, "outside_catalog_escalate": 0.00531}}
+{"idx": "SYN_0159_004", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.53121, "True": 0.46879}}
+{"idx": "SYN_0159_004", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "SYN_0159_004", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.07586, "True": 0.92414}}
+{"idx": "SYN_0159_004", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.67918, "True": 0.32082}}
+{"idx": "SYN_0159_004", "qid": "mgmt_preferred", "probs": {"start_topical_medical_therapy": 0.00429, "start_systemic_medical_therapy": 0.00486, "start_intravitreal_or_periocular_therapy": 0.30082, "individualized_surgical_evaluation": 0.04613, "complete_assessment_before_deciding": 0.63683, "outside_catalog_escalate": 0.00707}}
+{"idx": "SYN_0225_007", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.02298, "True": 0.97702}}
+{"idx": "SYN_0225_007", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00107, "start_systemic_medical_therapy": 0.24639, "complete_assessment_before_deciding": 0.66974, "individualized_surgical_evaluation": 0.00227, "escalate_to_specialist_or_mdt": 0.07999, "outside_catalog_escalate": 0.00054}}
+{"idx": "SYN_0239_002", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.1192, "True": 0.8808}}
+{"idx": "SYN_0239_002", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00395, "start_systemic_medical_therapy": 0.00137, "adjust_current_nonsurgical_management": 0.00395, "individualized_surgical_evaluation": 0.96744, "complete_assessment_before_deciding": 0.02275, "outside_catalog_escalate": 0.00054}}
+{"idx": "SYN_0244_006", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.06009, "True": 0.93991}}
+{"idx": "SYN_0244_006", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.02584, "start_systemic_medical_therapy": 0.0024, "individualized_surgical_evaluation": 0.00094, "complete_assessment_before_deciding": 0.96953, "outside_catalog_escalate": 0.00129}}
+{"idx": "SYN_0280_006", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.00232, "True": 0.99768}}
+{"idx": "SYN_0280_006", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.29421, "True": 0.70579}}
+{"idx": "SYN_0280_006", "qid": "mgmt_preferred", "probs": {"start_systemic_medical_therapy": 0.00213, "continue_current_management": 0.97328, "adjust_current_nonsurgical_management": 0.00451, "observation_monitoring_only": 0.00511, "complete_assessment_before_deciding": 0.00842, "outside_catalog_escalate": 0.00656}}
+{"idx": "SYN_0310_002", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.07586, "True": 0.92414}}
+{"idx": "SYN_0310_002", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00271, "start_topical_medical_therapy": 0.85197, "individualized_surgical_evaluation": 0.05446, "complete_assessment_before_deciding": 0.0898, "outside_catalog_escalate": 0.00106}}
+{"idx": "SYN_0315_002", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.9983, "True": 0.0017}}
+{"idx": "SYN_0315_002", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.0851, "True": 0.9149}}
+{"idx": "SYN_0315_002", "qid": "mgmt_preferred", "probs": {"start_topical_medical_therapy": 0.00582, "start_intravitreal_or_periocular_therapy": 0.00084, "individualized_surgical_evaluation": 0.86421, "complete_assessment_before_deciding": 0.09109, "escalate_to_specialist_or_mdt": 0.03351, "outside_catalog_escalate": 0.00453}}
+{"idx": "SYN_0325_001", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.99539, "True": 0.00461}}
+{"idx": "SYN_0325_001", "qid": "safe_proceed_with_modification_or_precaution_acceptable", "probs": {"False": 0.34865, "True": 0.65135}}
+{"idx": "SYN_0325_001", "qid": "safe_defer_until_prerequisite_completed_acceptable", "probs": {"False": 0.01099, "True": 0.98901}}
+{"idx": "SYN_0325_001", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.00337, "proceed_with_modification_or_precaution": 0.03005, "defer_until_prerequisite_completed": 0.87808, "contraindicated_choose_alternative": 0.08167, "escalate_for_specialist_decision": 0.00592, "outside_catalog_escalate": 0.00091}}
+{"idx": "SYN_0336_009", "qid": "inv_clarify_history_or_symptoms_acceptable", "probs": {"False": 0.00407, "True": 0.99593}}
+{"idx": "SYN_0336_009", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.01237, "clarify_history_or_symptoms": 0.98304, "visual_field_testing": 0.0019, "oct_macula_or_rnfl": 0.00042, "complete_comprehensive_eye_examination": 0.00148, "outside_catalog_escalate": 0.00079}}
+{"idx": "SYN_0341_007", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.10669, "True": 0.89331}}
+{"idx": "SYN_0341_007", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.87537, "proceed_with_modification_or_precaution": 0.10455, "defer_until_prerequisite_completed": 0.00668, "contraindicated_choose_alternative": 0.01249, "escalate_for_specialist_decision": 0.0008, "outside_catalog_escalate": 0.00011}}
+{"idx": "SYN_0361_001", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.99897, "True": 0.00103}}
+{"idx": "SYN_0361_001", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.04743, "True": 0.95257}}
+{"idx": "SYN_0361_001", "qid": "safe_escalate_for_specialist_decision_acceptable", "probs": {"False": 0.09535, "True": 0.90465}}
+{"idx": "SYN_0361_001", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.01458, "proceed_with_modification_or_precaution": 0.03963, "defer_until_prerequisite_completed": 0.54706, "contraindicated_choose_alternative": 0.37599, "escalate_for_specialist_decision": 0.02121, "outside_catalog_escalate": 0.00154}}
+{"idx": "SYN_0376_002", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.86704, "True": 0.13296}}
+{"idx": "SYN_0376_002", "qid": "mgmt_escalate_to_specialist_or_mdt_acceptable", "probs": {"False": 0.01099, "True": 0.98901}}
+{"idx": "SYN_0376_002", "qid": "mgmt_preferred", "probs": {"stop_or_taper_current_therapy": 0.00195, "start_topical_medical_therapy": 0.00162, "escalate_to_specialist_or_mdt": 0.69549, "individualized_surgical_evaluation": 0.0733, "complete_assessment_before_deciding": 0.22579, "outside_catalog_escalate": 0.00184}}
+{"idx": "SYN_0388_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.02931, "True": 0.97069}}
+{"idx": "SYN_0388_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.97153, "proceed_with_modification_or_precaution": 0.00655, "defer_until_prerequisite_completed": 0.00952, "contraindicated_choose_alternative": 0.00952, "escalate_for_specialist_decision": 0.00188, "outside_catalog_escalate": 0.001}}
+{"idx": "SYN_0393_003", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.26894, "True": 0.73106}}
+{"idx": "SYN_0393_003", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.01524, "laser_or_office_procedure_evaluation": 0.44542, "individualized_surgical_evaluation": 0.03227, "complete_assessment_before_deciding": 0.50473, "outside_catalog_escalate": 0.00234}}
+{"idx": "SYN_0393_010", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.32082, "True": 0.67918}}
+{"idx": "SYN_0393_010", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00409, "laser_or_office_procedure_evaluation": 0.01618, "individualized_surgical_evaluation": 0.77962, "complete_assessment_before_deciding": 0.19712, "outside_catalog_escalate": 0.00299}}
+{"idx": "SYN_0405_006", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.00359, "True": 0.99641}}
+{"idx": "SYN_0405_006", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00437, "individualized_surgical_evaluation": 0.04703, "laser_or_office_procedure_evaluation": 0.00171, "complete_assessment_before_deciding": 0.94453, "escalate_to_specialist_or_mdt": 0.00125, "outside_catalog_escalate": 0.00111}}
+{"idx": "SYN_0413_003", "qid": "safe_defer_until_prerequisite_completed_acceptable", "probs": {"False": 0.2227, "True": 0.7773}}
+{"idx": "SYN_0413_003", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.06134, "proceed_with_modification_or_precaution": 0.45324, "defer_until_prerequisite_completed": 0.39999, "contraindicated_choose_alternative": 0.01369, "escalate_for_specialist_decision": 0.06951, "outside_catalog_escalate": 0.00223}}
+{"idx": "SYN_0416_001", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.5, "True": 0.5}}
+{"idx": "SYN_0416_001", "qid": "inv_fluorescein_or_icg_angiography_acceptable", "probs": {"False": 0.53121, "True": 0.46879}}
+{"idx": "SYN_0416_001", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.44546, "complete_comprehensive_eye_examination": 0.03227, "oct_macula_or_rnfl": 0.08772, "fluorescein_or_icg_angiography": 0.39312, "outside_catalog_escalate": 0.04143}}
+{"idx": "SYN_0433_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.98901, "True": 0.01099}}
+{"idx": "SYN_0433_004", "qid": "safe_proceed_with_modification_or_precaution_acceptable", "probs": {"False": 0.85195, "True": 0.14805}}
+{"idx": "SYN_0433_004", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.16452, "True": 0.83548}}
+{"idx": "SYN_0433_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.00834, "proceed_with_modification_or_precaution": 0.01767, "defer_until_prerequisite_completed": 0.0042, "contraindicated_choose_alternative": 0.96454, "escalate_for_specialist_decision": 0.00327, "outside_catalog_escalate": 0.00198}}
+{"idx": "SYN_0440_006", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.67918, "True": 0.32082}}
+{"idx": "SYN_0440_006", "qid": "safe_proceed_with_modification_or_precaution_acceptable", "probs": {"False": 0.37754, "True": 0.62246}}
+{"idx": "SYN_0440_006", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.17614, "proceed_with_modification_or_precaution": 0.37288, "defer_until_prerequisite_completed": 0.19959, "contraindicated_choose_alternative": 0.0832, "escalate_for_specialist_decision": 0.15544, "outside_catalog_escalate": 0.01276}}
+{"idx": "SYN_0531_103", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.00359, "True": 0.99641}}
+{"idx": "SYN_0531_103", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00102, "laser_or_office_procedure_evaluation": 0.0013, "individualized_surgical_evaluation": 0.0013, "escalate_to_specialist_or_mdt": 0.01237, "complete_assessment_before_deciding": 0.98253, "outside_catalog_escalate": 0.00148}}
+{"idx": "SYN_0541_004", "qid": "inv_oct_macula_or_rnfl_acceptable", "probs": {"False": 0.0028, "True": 0.9972}}
+{"idx": "SYN_0541_004", "qid": "inv_complete_comprehensive_eye_examination_acceptable", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "SYN_0541_004", "qid": "inv_preferred", "probs": {"oct_macula_or_rnfl": 0.99515, "complete_comprehensive_eye_examination": 0.00218, "fluorescein_or_icg_angiography": 0.00014, "visual_acuity_and_refraction": 7e-05, "outside_catalog_escalate": 0.00247}}
+{"idx": "SYN_0542_001", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.92414, "True": 0.07586}}
+{"idx": "SYN_0542_001", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "SYN_0542_001", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.0135, "complete_comprehensive_eye_examination": 0.00638, "ocular_ultrasound_b_scan": 0.02858, "orbital_or_neuro_imaging_ct_mri": 0.94657, "outside_catalog_escalate": 0.00497}}
+{"idx": "SYN_0551_003", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.18243, "True": 0.81757}}
+{"idx": "SYN_0551_003", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00068, "start_topical_medical_therapy": 0.00077, "start_systemic_medical_therapy": 0.01552, "individualized_surgical_evaluation": 0.96043, "outside_catalog_escalate": 0.02259}}
+{"idx": "SYN_0560_008", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.1192, "True": 0.8808}}
+{"idx": "SYN_0560_008", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.68837, "proceed_with_modification_or_precaution": 0.25324, "defer_until_prerequisite_completed": 0.03883, "contraindicated_choose_alternative": 0.01113, "escalate_for_specialist_decision": 0.00596, "outside_catalog_escalate": 0.00248}}
+{"idx": "SYN_0606_004", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.43782, "True": 0.56218}}
+{"idx": "SYN_0606_004", "qid": "mgmt_preferred", "probs": {"complete_assessment_before_deciding": 0.11683, "start_intravitreal_or_periocular_therapy": 0.46206, "start_topical_medical_therapy": 0.06253, "start_systemic_medical_therapy": 0.28025, "escalate_to_specialist_or_mdt": 0.07086, "outside_catalog_escalate": 0.00747}}
+{"idx": "SYN_0621_001", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.62246, "True": 0.37754}}
+{"idx": "SYN_0621_001", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.02236, "start_topical_medical_therapy": 0.83919, "adjust_current_nonsurgical_management": 0.00932, "individualized_surgical_evaluation": 0.00499, "escalate_to_specialist_or_mdt": 0.11357, "outside_catalog_escalate": 0.01056}}
+{"idx": "SYN_0634_001", "qid": "inv_clarify_history_or_symptoms_acceptable", "probs": {"False": 0.01799, "True": 0.98201}}
+{"idx": "SYN_0634_001", "qid": "inv_preferred", "probs": {"clarify_history_or_symptoms": 0.01773, "review_prior_records_or_repeat_test": 0.00396, "complete_comprehensive_eye_examination": 0.96784, "no_additional_investigation_needed": 0.00652, "outside_catalog_escalate": 0.00396}}
+{"idx": "SYN_0663_002", "qid": "inv_ocular_ultrasound_b_scan_acceptable", "probs": {"False": 0.00103, "True": 0.99897}}
+{"idx": "SYN_0663_002", "qid": "inv_preferred", "probs": {"ocular_ultrasound_b_scan": 0.99962, "orbital_or_neuro_imaging_ct_mri": 0.00023, "laboratory_or_serology_workup": 2e-05, "complete_comprehensive_eye_examination": 7e-05, "outside_catalog_escalate": 7e-05}}
+{"idx": "SYN_0669_001", "qid": "inv_anterior_segment_oct_or_ubm_acceptable", "probs": {"False": 0.9466, "True": 0.0534}}
+{"idx": "SYN_0669_001", "qid": "inv_complete_comprehensive_eye_examination_acceptable", "probs": {"False": 0.09535, "True": 0.90465}}
+{"idx": "SYN_0669_001", "qid": "inv_preferred", "probs": {"anterior_segment_oct_or_ubm": 0.03656, "complete_comprehensive_eye_examination": 0.50465, "corneal_imaging_topography_pachymetry": 0.01345, "outside_catalog_escalate": 0.44535}}
+{"idx": "SYN_0672_009", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.93245, "True": 0.06755}}
+{"idx": "SYN_0672_009", "qid": "inv_laboratory_or_serology_workup_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "SYN_0672_009", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.06635, "laboratory_or_serology_workup": 0.10939, "review_prior_records_or_repeat_test": 0.80826, "complete_comprehensive_eye_examination": 0.01306, "histopathology_or_biopsy": 0.00037, "outside_catalog_escalate": 0.00257}}
+{"idx": "SYN_0694_003", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.96691, "True": 0.03309}}
+{"idx": "SYN_0694_003", "qid": "inv_systemic_or_multidisciplinary_evaluation_acceptable", "probs": {"False": 0.02033, "True": 0.97967}}
+{"idx": "SYN_0694_003", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.01292, "laboratory_or_serology_workup": 0.48498, "systemic_or_multidisciplinary_evaluation": 0.48498, "orbital_or_neuro_imaging_ct_mri": 0.01292, "outside_catalog_escalate": 0.0042}}
+{"idx": "SYN_0767_006", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.90465, "True": 0.09535}}
+{"idx": "SYN_0767_006", "qid": "mgmt_preferred", "probs": {"start_systemic_medical_therapy": 0.02791, "individualized_surgical_evaluation": 0.71984, "start_topical_medical_therapy": 0.00244, "observation_monitoring_only": 0.00906, "escalate_to_specialist_or_mdt": 0.2337, "outside_catalog_escalate": 0.00706}}
+{"idx": "SYN_0819_004", "qid": "mgmt_laser_or_office_procedure_evaluation_acceptable", "probs": {"False": 0.95257, "True": 0.04743}}
+{"idx": "SYN_0819_004", "qid": "mgmt_escalate_to_specialist_or_mdt_acceptable", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "SYN_0825_002", "qid": "inv_oct_macula_or_rnfl_acceptable", "probs": {"False": 0.04209, "True": 0.95791}}
+{"idx": "SYN_0825_002", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.9466, "True": 0.0534}}
+{"idx": "SYN_0825_002", "qid": "inv_preferred", "probs": {"oct_macula_or_rnfl": 0.95972, "complete_comprehensive_eye_examination": 0.0027, "visual_field_testing": 0.03721, "no_additional_investigation_needed": 0.00025, "outside_catalog_escalate": 0.00012}}
+{"idx": "SYN_0864_007", "qid": "mgmt_laser_or_office_procedure_evaluation_acceptable", "probs": {"False": 0.75491, "True": 0.24509}}
+{"idx": "SYN_0864_007", "qid": "mgmt_preferred", "probs": {"laser_or_office_procedure_evaluation": 0.06626, "observation_monitoring_only": 0.91467, "adjust_current_nonsurgical_management": 0.00227, "individualized_surgical_evaluation": 0.00065, "escalate_to_specialist_or_mdt": 0.01478, "outside_catalog_escalate": 0.00138}}
+{"idx": "SYN_0866_001", "qid": "inv_visual_field_testing_acceptable", "probs": {"False": 0.53121, "True": 0.46879}}
+{"idx": "SYN_0866_001", "qid": "inv_preferred", "probs": {"visual_field_testing": 0.2852, "fundus_photography_or_autofluorescence": 0.41496, "complete_comprehensive_eye_examination": 0.00337, "oct_macula_or_rnfl": 0.10492, "review_prior_records_or_repeat_test": 0.01823, "no_additional_investigation_needed": 0.15266, "outside_catalog_escalate": 0.02066}}
+{"idx": "SYN_0866_002", "qid": "inv_visual_field_testing_acceptable", "probs": {"False": 0.37754, "True": 0.62246}}
+{"idx": "SYN_0866_002", "qid": "inv_preferred", "probs": {"visual_field_testing": 0.94762, "fundus_photography_or_autofluorescence": 0.00929, "complete_comprehensive_eye_examination": 0.00126, "oct_macula_or_rnfl": 0.00342, "review_prior_records_or_repeat_test": 0.01053, "no_additional_investigation_needed": 0.01053, "outside_catalog_escalate": 0.01736}}
+{"idx": "SYN_0892_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.5, "True": 0.5}}
+{"idx": "SYN_0892_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.02692, "proceed_with_modification_or_precaution": 0.89138, "defer_until_prerequisite_completed": 0.01271, "contraindicated_choose_alternative": 0.04438, "escalate_for_specialist_decision": 0.02096, "outside_catalog_escalate": 0.00364}}
+{"idx": "SYN_0894_005", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.20181, "True": 0.79819}}
+{"idx": "SYN_0894_005", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.0851, "True": 0.9149}}
+{"idx": "SYN_0894_005", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.99951, "True": 0.00049}}
+{"idx": "SYN_0894_005", "qid": "mgmt_escalate_to_specialist_or_mdt_acceptable", "probs": {"False": 0.00407, "True": 0.99593}}
+{"idx": "SYN_0894_005", "qid": "mgmt_preferred", "probs": {"individualized_surgical_evaluation": 0.35063, "start_systemic_medical_therapy": 0.18768, "observation_monitoring_only": 0.00153, "escalate_to_specialist_or_mdt": 0.45022, "continue_current_management": 0.0006, "outside_catalog_escalate": 0.00934}}
+{"idx": "SYN_0907_005", "qid": "inv_genetic_testing_acceptable", "probs": {"False": 0.09535, "True": 0.90465}}
+{"idx": "SYN_0907_005", "qid": "inv_histopathology_or_biopsy_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "SYN_0907_005", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.13296, "True": 0.86704}}
+{"idx": "SYN_0907_005", "qid": "inv_preferred", "probs": {"complete_comprehensive_eye_examination": 0.00824, "genetic_testing": 0.84031, "histopathology_or_biopsy": 0.01539, "orbital_or_neuro_imaging_ct_mri": 0.04184, "systemic_or_multidisciplinary_evaluation": 0.08857, "outside_catalog_escalate": 0.00566}}
+{"idx": "SYN_0919_002", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.06009, "True": 0.93991}}
+{"idx": "SYN_0919_002", "qid": "inv_preferred", "probs": {"histopathology_or_biopsy": 0.00117, "microbiology_culture_or_pcr": 0.00024, "orbital_or_neuro_imaging_ct_mri": 0.99778, "laboratory_or_serology_workup": 0.00022, "outside_catalog_escalate": 0.00059}}
+{"idx": "SYN_0944_005", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.29421, "True": 0.70579}}
+{"idx": "SYN_0944_005", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.83548, "True": 0.16452}}
+{"idx": "SYN_0951_005", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.13296, "True": 0.86704}}
+{"idx": "SYN_0951_005", "qid": "mgmt_escalate_to_specialist_or_mdt_acceptable", "probs": {"False": 0.65135, "True": 0.34865}}
+{"idx": "SYN_0951_005", "qid": "mgmt_preferred", "probs": {"continue_current_management": 0.88909, "start_systemic_medical_therapy": 0.01845, "escalate_to_specialist_or_mdt": 0.05016, "adjust_current_nonsurgical_management": 0.03906, "observation_monitoring_only": 0.00151, "outside_catalog_escalate": 0.00172}}
+{"idx": "SYN_0972_006", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "SYN_0972_006", "qid": "inv_microbiology_culture_or_pcr_acceptable", "probs": {"False": 0.53121, "True": 0.46879}}
+{"idx": "SYN_0972_006", "qid": "inv_preferred", "probs": {"no_additional_investigation_needed": 0.61046, "complete_comprehensive_eye_examination": 0.01267, "microbiology_culture_or_pcr": 0.32676, "outside_catalog_escalate": 0.05011}}
+{"idx": "SYN_0984_001", "qid": "inv_laboratory_or_serology_workup_acceptable", "probs": {"False": 0.29421, "True": 0.70579}}
+{"idx": "SYN_0984_001", "qid": "inv_visual_field_testing_acceptable", "probs": {"False": 0.03309, "True": 0.96691}}
+{"idx": "SYN_0984_001", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.9466, "True": 0.0534}}
+{"idx": "SYN_0984_001", "qid": "inv_preferred", "probs": {"laboratory_or_serology_workup": 0.66715, "visual_field_testing": 0.16868, "orbital_or_neuro_imaging_ct_mri": 0.09029, "complete_comprehensive_eye_examination": 0.04833, "no_additional_investigation_needed": 0.02283, "outside_catalog_escalate": 0.00273}}
+{"idx": "SYN_0990_102", "qid": "inv_electrophysiology_erg_vep_acceptable", "probs": {"False": 0.02931, "True": 0.97069}}
+{"idx": "SYN_0990_102", "qid": "inv_preferred", "probs": {"oct_macula_or_rnfl": 0.00114, "electrophysiology_erg_vep": 0.97142, "visual_field_testing": 0.02016, "genetic_testing": 0.00165, "no_additional_investigation_needed": 0.0035, "outside_catalog_escalate": 0.00212}}
+{"idx": "SYN_1036_009", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.07586, "True": 0.92414}}
+{"idx": "SYN_1036_009", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.01792, "laser_or_office_procedure_evaluation": 0.0013, "start_intravitreal_or_periocular_therapy": 0.00045, "individualized_surgical_evaluation": 0.00021, "complete_assessment_before_deciding": 0.97845, "outside_catalog_escalate": 0.00167}}
+{"idx": "SYN_1045_004", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.98201, "True": 0.01799}}
+{"idx": "SYN_1045_004", "qid": "mgmt_adjust_current_nonsurgical_management_acceptable", "probs": {"False": 0.62246, "True": 0.37754}}
+{"idx": "SYN_1045_004", "qid": "mgmt_stop_or_taper_current_therapy_acceptable", "probs": {"False": 0.46879, "True": 0.53121}}
+{"idx": "SYN_1045_004", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00119, "start_topical_medical_therapy": 0.89585, "adjust_current_nonsurgical_management": 0.00366, "stop_or_taper_current_therapy": 0.07354, "complete_assessment_before_deciding": 0.02107, "outside_catalog_escalate": 0.0047}}
+{"idx": "SYN_1060_005", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.79819, "True": 0.20181}}
+{"idx": "SYN_1060_005", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.2741, "start_systemic_medical_therapy": 0.3106, "start_intravitreal_or_periocular_therapy": 0.00305, "individualized_surgical_evaluation": 0.12948, "complete_assessment_before_deciding": 0.21347, "outside_catalog_escalate": 0.0693}}
+{"idx": "SYN_1094_008", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.99782, "True": 0.00218}}
+{"idx": "SYN_1094_008", "qid": "mgmt_adjust_current_nonsurgical_management_acceptable", "probs": {"False": 0.79819, "True": 0.20181}}
+{"idx": "SYN_1094_008", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "SYN_1094_008", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.99897, "True": 0.00103}}
+{"idx": "SYN_1094_008", "qid": "mgmt_preferred", "probs": {"continue_current_management": 0.00324, "adjust_current_nonsurgical_management": 0.17691, "start_systemic_medical_therapy": 0.17691, "observation_monitoring_only": 0.00153, "escalate_to_specialist_or_mdt": 0.61747, "outside_catalog_escalate": 0.02394}}
+{"idx": "SYN_1096_001", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.9983, "True": 0.0017}}
+{"idx": "SYN_1096_001", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.01591, "True": 0.98409}}
+{"idx": "SYN_1096_001", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.00055, "proceed_with_modification_or_precaution": 0.00262, "defer_until_prerequisite_completed": 0.0018, "contraindicated_choose_alternative": 0.99438, "escalate_for_specialist_decision": 0.00049, "outside_catalog_escalate": 0.00016}}
+{"idx": "SYN_1108_009", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.9985, "True": 0.0015}}
+{"idx": "SYN_1108_009", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.03309, "True": 0.96691}}
+{"idx": "SYN_1108_009", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.00271, "proceed_with_modification_or_precaution": 0.00225, "defer_until_prerequisite_completed": 0.00945, "contraindicated_choose_alternative": 0.96414, "escalate_for_specialist_decision": 0.02001, "outside_catalog_escalate": 0.00145}}
+{"idx": "SYN_1170_004", "qid": "safe_proceed_with_modification_or_precaution_acceptable", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "SYN_1170_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.18792, "proceed_with_modification_or_precaution": 0.51082, "defer_until_prerequisite_completed": 0.2413, "contraindicated_choose_alternative": 0.0106, "escalate_for_specialist_decision": 0.04751, "outside_catalog_escalate": 0.00184}}
+{"idx": "SYN_1251_001", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "SYN_1251_001", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.95791, "True": 0.04209}}
+{"idx": "SYN_1251_001", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.02936, "start_systemic_medical_therapy": 0.85791, "individualized_surgical_evaluation": 0.01781, "escalate_to_specialist_or_mdt": 0.09042, "outside_catalog_escalate": 0.0045}}
+{"idx": "SYN_1258_001", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.99331, "True": 0.00669}}
+{"idx": "SYN_1258_001", "qid": "mgmt_preferred", "probs": {"continue_current_management": 0.48464, "individualized_surgical_evaluation": 0.04508, "complete_assessment_before_deciding": 0.42769, "escalate_to_specialist_or_mdt": 0.02129, "outside_catalog_escalate": 0.02129}}
+{"idx": "SYN_1262_001", "qid": "urgency_level", "probs": {"0": 0.00028, "1": 0.0001, "2": 0.00103, "3": 0.99859}}
+{"idx": "SYN_1266_006", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.06009, "True": 0.93991}}
+{"idx": "SYN_1266_006", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.01376, "laser_or_office_procedure_evaluation": 0.0006, "individualized_surgical_evaluation": 0.02002, "complete_assessment_before_deciding": 0.96483, "outside_catalog_escalate": 0.00078}}
+{"idx": "SYN_1290_003", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.03733, "True": 0.96267}}
+{"idx": "SYN_1290_003", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.99883, "True": 0.00117}}
+{"idx": "SYN_1290_003", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.49664, "start_intravitreal_or_periocular_therapy": 0.00139, "continue_current_management": 0.49664, "complete_assessment_before_deciding": 0.00487, "start_systemic_medical_therapy": 0.00029, "outside_catalog_escalate": 0.00017}}
+{"idx": "SYN_1307_005", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.9149, "True": 0.0851}}
+{"idx": "SYN_1307_005", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "SYN_1307_005", "qid": "mgmt_escalate_to_specialist_or_mdt_acceptable", "probs": {"False": 0.0028, "True": 0.9972}}
+{"idx": "SYN_1307_005", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00136, "start_systemic_medical_therapy": 0.00112, "individualized_surgical_evaluation": 0.37572, "escalate_to_specialist_or_mdt": 0.61945, "continue_current_management": 0.0005, "outside_catalog_escalate": 0.00185}}
+{"idx": "SYN_1320_006", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.00591, "True": 0.99409}}
+{"idx": "SYN_1320_006", "qid": "mgmt_preferred", "probs": {"individualized_surgical_evaluation": 0.00116, "adjust_current_nonsurgical_management": 0.00217, "observation_monitoring_only": 0.00231, "complete_assessment_before_deciding": 0.99266, "outside_catalog_escalate": 0.00169}}
+{"idx": "SYN_1321_001", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.34865, "True": 0.65135}}
+{"idx": "SYN_1321_001", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.84425, "start_systemic_medical_therapy": 0.00645, "adjust_current_nonsurgical_management": 0.00645, "escalate_to_specialist_or_mdt": 0.10083, "outside_catalog_escalate": 0.04203}}
+{"idx": "SYN_1321_001", "qid": "urgency_level", "probs": {"0": 0.97321, "1": 0.01782, "2": 0.00656, "3": 0.00241}}
+{"idx": "SYN_1345_004", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.24509, "True": 0.75491}}
+{"idx": "SYN_1345_004", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.20181, "True": 0.79819}}
+{"idx": "SYN_1345_004", "qid": "mgmt_preferred", "probs": {"start_topical_medical_therapy": 0.22194, "adjust_current_nonsurgical_management": 0.32291, "complete_assessment_before_deciding": 0.36591, "escalate_to_specialist_or_mdt": 0.08165, "outside_catalog_escalate": 0.00759}}
+{"idx": "SYN_1346_004", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.24509, "True": 0.75491}}
+{"idx": "SYN_1346_004", "qid": "mgmt_preferred", "probs": {"start_topical_medical_therapy": 0.91207, "adjust_current_nonsurgical_management": 0.01671, "laser_or_office_procedure_evaluation": 0.02431, "individualized_surgical_evaluation": 0.00422, "escalate_to_specialist_or_mdt": 0.01148, "outside_catalog_escalate": 0.03121}}
+{"idx": "SYN_1359_006", "qid": "inv_laboratory_or_serology_workup_acceptable", "probs": {"False": 0.00591, "True": 0.99409}}
+{"idx": "SYN_1359_006", "qid": "inv_clarify_history_or_symptoms_acceptable", "probs": {"False": 0.32082, "True": 0.67918}}
+{"idx": "SYN_1359_006", "qid": "inv_preferred", "probs": {"laboratory_or_serology_workup": 0.75757, "histopathology_or_biopsy": 0.21705, "clarify_history_or_symptoms": 0.00743, "systemic_or_multidisciplinary_evaluation": 0.00842, "outside_catalog_escalate": 0.00954}}
+{"idx": "SYN_1378_005", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.37754, "True": 0.62246}}
+{"idx": "SYN_1378_005", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.32082, "True": 0.67918}}
+{"idx": "SYN_1378_005", "qid": "mgmt_preferred", "probs": {"continue_current_management": 0.12892, "adjust_current_nonsurgical_management": 0.11377, "complete_assessment_before_deciding": 0.7419, "outside_catalog_escalate": 0.0154}}
+{"idx": "SYN_1396_006", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.06009, "True": 0.93991}}
+{"idx": "SYN_1396_006", "qid": "inv_review_prior_records_or_repeat_test_acceptable", "probs": {"False": 0.29421, "True": 0.70579}}
+{"idx": "SYN_1396_006", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.97069, "True": 0.02931}}
+{"idx": "SYN_1396_006", "qid": "inv_preferred", "probs": {"orbital_or_neuro_imaging_ct_mri": 0.73696, "histopathology_or_biopsy": 0.00301, "systemic_or_multidisciplinary_evaluation": 0.21114, "review_prior_records_or_repeat_test": 0.03238, "no_additional_investigation_needed": 0.00928, "outside_catalog_escalate": 0.00722}}
+{"idx": "SYN_1400_009", "qid": "mgmt_adjust_current_nonsurgical_management_acceptable", "probs": {"False": 0.1192, "True": 0.8808}}
+{"idx": "SYN_1400_009", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.79819, "True": 0.20181}}
+{"idx": "SYN_1400_009", "qid": "mgmt_preferred", "probs": {"start_systemic_medical_therapy": 0.00472, "adjust_current_nonsurgical_management": 0.70064, "continue_current_management": 0.0006, "individualized_surgical_evaluation": 0.29207, "outside_catalog_escalate": 0.00197}}
+{"idx": "SYN_1415_002", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.5, "True": 0.5}}
+{"idx": "SYN_1415_002", "qid": "mgmt_adjust_current_nonsurgical_management_acceptable", "probs": {"False": 0.59267, "True": 0.40733}}
+{"idx": "SYN_1415_002", "qid": "mgmt_preferred", "probs": {"start_systemic_medical_therapy": 0.30527, "adjust_current_nonsurgical_management": 0.2694, "escalate_to_specialist_or_mdt": 0.23775, "individualized_surgical_evaluation": 0.00125, "complete_assessment_before_deciding": 0.18516, "outside_catalog_escalate": 0.00117}}
+{"idx": "SYN_1434_005", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.00117, "True": 0.99883}}
+{"idx": "SYN_1434_005", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.01799, "True": 0.98201}}
+{"idx": "SYN_1434_005", "qid": "mgmt_preferred", "probs": {"continue_current_management": 0.99885, "start_systemic_medical_therapy": 6e-05, "observation_monitoring_only": 0.00091, "outside_catalog_escalate": 0.00018}}
+{"idx": "SYN_1436_008", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.16452, "True": 0.83548}}
+{"idx": "SYN_1436_008", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.25994, "proceed_with_modification_or_precaution": 0.48563, "defer_until_prerequisite_completed": 0.13914, "contraindicated_choose_alternative": 0.10836, "outside_catalog_escalate": 0.00693}}
+{"idx": "SYN_1482_007", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.02033, "True": 0.97967}}
+{"idx": "SYN_1482_007", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.71135, "proceed_with_modification_or_precaution": 0.26169, "defer_until_prerequisite_completed": 0.01896, "contraindicated_choose_alternative": 0.00226, "escalate_for_specialist_decision": 0.00543, "outside_catalog_escalate": 0.00031}}
+{"idx": "SYN_1522_001", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.99593, "True": 0.00407}}
+{"idx": "SYN_1522_001", "qid": "mgmt_stop_or_taper_current_therapy_acceptable", "probs": {"False": 0.00971, "True": 0.99029}}
+{"idx": "SYN_1522_001", "qid": "mgmt_adjust_current_nonsurgical_management_acceptable", "probs": {"False": 0.5, "True": 0.5}}
+{"idx": "SYN_1522_001", "qid": "mgmt_escalate_to_specialist_or_mdt_acceptable", "probs": {"False": 0.29421, "True": 0.70579}}
+{"idx": "SYN_1522_001", "qid": "mgmt_preferred", "probs": {"continue_current_management": 0.00065, "stop_or_taper_current_therapy": 0.97777, "adjust_current_nonsurgical_management": 0.004, "escalate_to_specialist_or_mdt": 0.00747, "complete_assessment_before_deciding": 0.00353, "outside_catalog_escalate": 0.00659}}
+{"idx": "SYN_1597_005", "qid": "inv_ocular_ultrasound_b_scan_acceptable", "probs": {"False": 0.02033, "True": 0.97967}}
+{"idx": "SYN_1597_005", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.34865, "True": 0.65135}}
+{"idx": "SYN_1597_005", "qid": "inv_preferred", "probs": {"ocular_ultrasound_b_scan": 0.51765, "orbital_or_neuro_imaging_ct_mri": 0.13088, "complete_comprehensive_eye_examination": 0.31397, "outside_catalog_escalate": 0.0375}}
+{"idx": "SYN_1662_002", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.99753, "True": 0.00247}}
+{"idx": "SYN_1662_002", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.20181, "True": 0.79819}}
+{"idx": "SYN_1663_010", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.2227, "True": 0.7773}}
+{"idx": "SYN_1663_010", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.93991, "True": 0.06009}}
+{"idx": "SYN_1663_010", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.04416, "individualized_surgical_evaluation": 0.60962, "start_intravitreal_or_periocular_therapy": 0.01841, "complete_assessment_before_deciding": 0.3263, "outside_catalog_escalate": 0.00151}}
+{"idx": "SYN_1676_008", "qid": "mgmt_laser_or_office_procedure_evaluation_acceptable", "probs": {"False": 0.04743, "True": 0.95257}}
+{"idx": "SYN_1676_008", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00795, "adjust_current_nonsurgical_management": 0.00061, "laser_or_office_procedure_evaluation": 0.91873, "individualized_surgical_evaluation": 0.06655, "start_topical_medical_therapy": 0.00069, "outside_catalog_escalate": 0.00546}}
+{"idx": "SYN_0581_002", "qid": "inv_complete_comprehensive_eye_examination_acceptable", "probs": {"False": 0.10669, "True": 0.89331}}
+{"idx": "SYN_0581_002", "qid": "inv_preferred", "probs": {"complete_comprehensive_eye_examination": 0.7273, "ocular_ultrasound_b_scan": 0.05269, "visual_acuity_and_refraction": 0.14321, "systemic_or_multidisciplinary_evaluation": 0.00916, "outside_catalog_escalate": 0.06765}}
+{"idx": "QSYN_0004_003", "qid": "urgency_level", "probs": {"0": 0.00084, "1": 0.04582, "2": 0.8122, "3": 0.14114}}
+{"idx": "QSYN_0004_003", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.98757, "True": 0.01243}}
+{"idx": "QSYN_0004_003", "qid": "mgmt_continue_current_management_acceptable", "probs": {"False": 0.98409, "True": 0.01591}}
+{"idx": "QSYN_0004_003", "qid": "mgmt_adjust_current_nonsurgical_management_acceptable", "probs": {"False": 0.1192, "True": 0.8808}}
+{"idx": "QSYN_0004_003", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.06009, "True": 0.93991}}
+{"idx": "QSYN_0004_003", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00677, "continue_current_management": 0.00767, "adjust_current_nonsurgical_management": 0.69079, "start_topical_medical_therapy": 0.0825, "start_systemic_medical_therapy": 0.10594, "start_intravitreal_or_periocular_therapy": 0.00071, "laser_or_office_procedure_evaluation": 0.01841, "individualized_surgical_evaluation": 0.01117, "stop_or_taper_current_therapy": 0.03035, "complete_assessment_before_deciding": 0.04416, "escalate_to_specialist_or_mdt": 0.00056, "outside_catalog_escalate": 0.00098}}
+{"idx": "QSYN_0017_013", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.99029, "True": 0.00971}}
+{"idx": "QSYN_0017_013", "qid": "safe_defer_until_prerequisite_completed_acceptable", "probs": {"False": 0.06009, "True": 0.93991}}
+{"idx": "QSYN_0017_013", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.0035, "defer_until_prerequisite_completed": 0.97062, "contraindicated_choose_alternative": 0.00212, "proceed_with_modification_or_precaution": 0.02283, "escalate_for_specialist_decision": 0.00078, "outside_catalog_escalate": 0.00014}}
+{"idx": "QSYN_0025_006", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.34865, "True": 0.65135}}
+{"idx": "QSYN_0025_006", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.99909, "True": 0.00091}}
+{"idx": "QSYN_0025_006", "qid": "mgmt_preferred", "probs": {"start_systemic_medical_therapy": 0.11683, "start_intravitreal_or_periocular_therapy": 0.76181, "observation_monitoring_only": 0.00453, "outside_catalog_escalate": 0.11683}}
+{"idx": "QSYN_0041_008", "qid": "inv_clarify_history_or_symptoms_acceptable", "probs": {"False": 0.1192, "True": 0.8808}}
+{"idx": "QSYN_0041_008", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.96267, "True": 0.03733}}
+{"idx": "QSYN_0041_008", "qid": "inv_preferred", "probs": {"complete_comprehensive_eye_examination": 0.04656, "clarify_history_or_symptoms": 0.93522, "systemic_or_multidisciplinary_evaluation": 0.00382, "no_additional_investigation_needed": 0.00809, "outside_catalog_escalate": 0.0063}}
+{"idx": "QSYN_0072_007", "qid": "inv_electrophysiology_erg_vep_acceptable", "probs": {"False": 0.62246, "True": 0.37754}}
+{"idx": "QSYN_0072_007", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.73106, "True": 0.26894}}
+{"idx": "QSYN_0072_007", "qid": "inv_preferred", "probs": {"electrophysiology_erg_vep": 0.06578, "laboratory_or_serology_workup": 0.00612, "no_additional_investigation_needed": 0.2948, "orbital_or_neuro_imaging_ct_mri": 0.62409, "review_prior_records_or_repeat_test": 0.00137, "outside_catalog_escalate": 0.00786}}
+{"idx": "QSYN_0081_002", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.95791, "True": 0.04209}}
+{"idx": "QSYN_0081_002", "qid": "dx_wound_dehiscence", "probs": {"0": 0.6183, "1": 0.33095, "2": 0.05075}}
+{"idx": "QSYN_0081_002", "qid": "dx_hyphema", "probs": {"0": 0.91397, "1": 0.05843, "2": 0.0276}}
+{"idx": "QSYN_0081_002", "qid": "dx_retinal_detachment", "probs": {"0": 0.21083, "1": 0.73587, "2": 0.05331}}
+{"idx": "QSYN_0081_002", "qid": "dx_corneal_abrasion", "probs": {"0": 0.64536, "1": 0.34544, "2": 0.00921}}
+{"idx": "QSYN_0110_007", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.67918, "True": 0.32082}}
+{"idx": "QSYN_0110_007", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.99478, "True": 0.00522}}
+{"idx": "QSYN_0110_007", "qid": "mgmt_preferred", "probs": {"start_topical_medical_therapy": 0.67688, "start_systemic_medical_therapy": 0.03819, "observation_monitoring_only": 0.00277, "outside_catalog_escalate": 0.28217}}
+{"idx": "QSYN_0161_003P", "qid": "dx_blepharochalasis_syndrome", "probs": {"0": 0.96015, "1": 0.01993, "2": 0.01993}}
+{"idx": "QSYN_0161_003P", "qid": "dx_dermatochalasis", "probs": {"0": 0.97205, "1": 0.01571, "2": 0.01224}}
+{"idx": "QSYN_0161_003P", "qid": "dx_thyroid_eye_disease", "probs": {"0": 0.13437, "1": 0.09235, "2": 0.77327}}
+{"idx": "QSYN_0161_003P", "qid": "dx_orbital_cellulitis", "probs": {"0": 0.32348, "1": 0.60434, "2": 0.07218}}
+{"idx": "QSYN_0168_008", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.97967, "True": 0.02033}}
+{"idx": "QSYN_0168_008", "qid": "mgmt_outside_catalog_escalate_acceptable", "probs": {"False": 0.81757, "True": 0.18243}}
+{"idx": "QSYN_0168_008", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.05571, "start_topical_medical_therapy": 0.28293, "complete_assessment_before_deciding": 0.41167, "outside_catalog_escalate": 0.24969}}
+{"idx": "QSYN_0220_009", "qid": "dx_angle_closure_glaucoma", "probs": {"0": 0.11841, "1": 0.41328, "2": 0.46831}}
+{"idx": "QSYN_0220_009", "qid": "dx_uveal_effusion", "probs": {"0": 0.53073, "1": 0.41333, "2": 0.05594}}
+{"idx": "QSYN_0220_009", "qid": "dx_posterior_capsule_rupture", "probs": {"0": 0.97035, "1": 0.02014, "2": 0.00951}}
+{"idx": "QSYN_0250_011", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.5, "True": 0.5}}
+{"idx": "QSYN_0250_011", "qid": "mgmt_preferred", "probs": {"start_systemic_medical_therapy": 0.35934, "observation_monitoring_only": 0.00581, "start_topical_medical_therapy": 0.00452, "individualized_surgical_evaluation": 0.59245, "outside_catalog_escalate": 0.03787}}
+{"idx": "QSYN_0267_015", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.98201, "True": 0.01799}}
+{"idx": "QSYN_0267_015", "qid": "safe_proceed_with_modification_or_precaution_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "QSYN_0267_015", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.02242, "proceed_with_modification_or_precaution": 0.74254, "defer_until_prerequisite_completed": 0.00567, "contraindicated_choose_alternative": 0.11387, "escalate_for_specialist_decision": 0.11387, "outside_catalog_escalate": 0.00162}}
+{"idx": "QSYN_0280_002", "qid": "dx_cobalamin_c_deficiency", "probs": {"0": 0.16289, "1": 0.26856, "2": 0.56855}}
+{"idx": "QSYN_0280_002", "qid": "dx_stargardt_s_disease", "probs": {"0": 0.82471, "1": 0.14331, "2": 0.03198}}
+{"idx": "QSYN_0280_002", "qid": "dx_congenital_zika_syndrome", "probs": {"0": 0.63882, "1": 0.30176, "2": 0.05942}}
+{"idx": "QSYN_0280_002", "qid": "dx_best_disease", "probs": {"0": 0.87007, "1": 0.0917, "2": 0.03823}}
+{"idx": "QSYN_0287_003E", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.99539, "True": 0.00461}}
+{"idx": "QSYN_0330_005", "qid": "dx_convergence_insufficiency", "probs": {"0": 0.59083, "1": 0.19181, "2": 0.21735}}
+{"idx": "QSYN_0330_005", "qid": "dx_normal_convergence_function", "probs": {"0": 0.98888, "1": 0.00357, "2": 0.00755}}
+{"idx": "QSYN_0330_005", "qid": "dx_suppression", "probs": {"0": 0.11117, "1": 0.06743, "2": 0.82141}}
+{"idx": "QSYN_0346_005", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.20181, "True": 0.79819}}
+{"idx": "QSYN_0346_005", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.8808, "True": 0.1192}}
+{"idx": "QSYN_0346_005", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.22659, "proceed_with_modification_or_precaution": 0.42333, "defer_until_prerequisite_completed": 0.05729, "contraindicated_choose_alternative": 0.29095, "escalate_for_specialist_decision": 0.00153, "outside_catalog_escalate": 0.0003}}
+{"idx": "QSYN_0393_001", "qid": "dx_nasolacrimal_duct_obstruction", "probs": {"0": 0.1512, "1": 0.08093, "2": 0.76787}}
+{"idx": "QSYN_0393_001", "qid": "dx_canalicular_obstruction", "probs": {"0": 0.41923, "1": 0.25428, "2": 0.3265}}
+{"idx": "QSYN_0393_001", "qid": "dx_punctal_stenosis", "probs": {"0": 0.97631, "1": 0.00581, "2": 0.01788}}
+{"idx": "QSYN_0393_001", "qid": "dx_eyelid_malposition", "probs": {"0": 0.99937, "1": 0.00014, "2": 0.00049}}
+{"idx": "QSYN_0407_006", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "QSYN_0407_006", "qid": "safe_proceed_with_modification_or_precaution_acceptable", "probs": {"False": 0.16452, "True": 0.83548}}
+{"idx": "QSYN_0407_006", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.34811, "proceed_with_modification_or_precaution": 0.44699, "defer_until_prerequisite_completed": 0.08802, "contraindicated_choose_alternative": 0.04711, "escalate_for_specialist_decision": 0.06049, "outside_catalog_escalate": 0.00928}}
+{"idx": "QSYN_0469_007", "qid": "dx_elevated_episcleral_venous_pressure", "probs": {"0": 0.13837, "1": 0.06536, "2": 0.79627}}
+{"idx": "QSYN_0469_007", "qid": "dx_primary_open_angle_glaucoma", "probs": {"0": 0.57731, "1": 0.30901, "2": 0.11368}}
+{"idx": "QSYN_0469_007", "qid": "dx_episcleritis", "probs": {"0": 0.94136, "1": 0.0365, "2": 0.02214}}
+{"idx": "QSYN_0469_007", "qid": "dx_conjunctivitis", "probs": {"0": 0.99294, "1": 0.00246, "2": 0.0046}}
+{"idx": "QSYN_0479_007", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.98409, "True": 0.01591}}
+{"idx": "QSYN_0479_007", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.99593, "True": 0.00407}}
+{"idx": "QSYN_0488_009", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.7773, "True": 0.2227}}
+{"idx": "QSYN_0488_009", "qid": "mgmt_preferred", "probs": {"complete_assessment_before_deciding": 0.95797, "start_topical_medical_therapy": 0.00391, "observation_monitoring_only": 0.01206, "individualized_surgical_evaluation": 0.00053, "outside_catalog_escalate": 0.02553}}
+{"idx": "QSYN_0497_002", "qid": "dx_esthesioneuroblastoma", "probs": {"0": 0.83444, "1": 0.16431, "2": 0.00125}}
+{"idx": "QSYN_0497_002", "qid": "dx_rhabdomyosarcoma", "probs": {"0": 0.0163, "1": 0.78518, "2": 0.19852}}
+{"idx": "QSYN_0497_002", "qid": "dx_schneiderian_papilloma", "probs": {"0": 0.9457, "1": 0.04708, "2": 0.00722}}
+{"idx": "QSYN_0497_002", "qid": "dx_squamous_cell_carcinoma", "probs": {"0": 0.95614, "1": 0.04201, "2": 0.00185}}
+{"idx": "QSYN_0497_002", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.46879, "True": 0.53121}}
+{"idx": "QSYN_0497_002", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.93991, "True": 0.06009}}
+{"idx": "QSYN_0497_002", "qid": "inv_preferred", "probs": {"orbital_or_neuro_imaging_ct_mri": 0.19295, "laboratory_or_serology_workup": 0.31813, "no_additional_investigation_needed": 0.40848, "outside_catalog_escalate": 0.08044}}
+{"idx": "QSYN_0497_004", "qid": "dx_esthesioneuroblastoma", "probs": {"0": 0.03469, "1": 0.42263, "2": 0.54267}}
+{"idx": "QSYN_0497_004", "qid": "dx_rhabdomyosarcoma", "probs": {"0": 0.1894, "1": 0.74911, "2": 0.06149}}
+{"idx": "QSYN_0497_004", "qid": "dx_schneiderian_papilloma", "probs": {"0": 0.35425, "1": 0.51543, "2": 0.13032}}
+{"idx": "QSYN_0497_004", "qid": "dx_squamous_cell_carcinoma", "probs": {"0": 0.03112, "1": 0.70831, "2": 0.26057}}
+{"idx": "QSYN_0498_004", "qid": "inv_complete_comprehensive_eye_examination_acceptable", "probs": {"False": 0.26894, "True": 0.73106}}
+{"idx": "QSYN_0498_004", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.99142, "True": 0.00858}}
+{"idx": "QSYN_0498_004", "qid": "inv_preferred", "probs": {"complete_comprehensive_eye_examination": 0.84216, "visual_acuity_and_refraction": 0.07833, "oct_macula_or_rnfl": 0.00729, "electrophysiology_erg_vep": 0.00041, "no_additional_investigation_needed": 0.06913, "outside_catalog_escalate": 0.00268}}
+{"idx": "QSYN_0506_011", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.98594, "True": 0.01406}}
+{"idx": "QSYN_0506_011", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.43782, "True": 0.56218}}
+{"idx": "QSYN_0506_011", "qid": "mgmt_preferred", "probs": {"start_topical_medical_therapy": 0.00748, "observation_monitoring_only": 0.0007, "individualized_surgical_evaluation": 0.97992, "start_systemic_medical_therapy": 0.00101, "outside_catalog_escalate": 0.01089}}
+{"idx": "QSYN_0543_002", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.03733, "True": 0.96267}}
+{"idx": "QSYN_0543_002", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.90465, "True": 0.09535}}
+{"idx": "QSYN_0543_002", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.68532, "proceed_with_modification_or_precaution": 0.19635, "defer_until_prerequisite_completed": 0.09275, "contraindicated_choose_alternative": 0.02345, "escalate_for_specialist_decision": 0.00192, "outside_catalog_escalate": 0.00022}}
+{"idx": "QSYN_0547_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.00858, "True": 0.99142}}
+{"idx": "QSYN_0547_004", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.99029, "True": 0.00971}}
+{"idx": "QSYN_0547_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.9745, "proceed_with_modification_or_precaution": 0.01227, "defer_until_prerequisite_completed": 0.01083, "contraindicated_choose_alternative": 0.00129, "escalate_for_specialist_decision": 0.00078, "outside_catalog_escalate": 0.00033}}
+{"idx": "QSYN_0551_002", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.99782, "True": 0.00218}}
+{"idx": "QSYN_0551_002", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.65135, "True": 0.34865}}
+{"idx": "QSYN_0551_002", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.53121, "True": 0.46879}}
+{"idx": "QSYN_0551_002", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00851, "start_topical_medical_therapy": 0.1937, "individualized_surgical_evaluation": 0.67609, "complete_assessment_before_deciding": 0.10368, "outside_catalog_escalate": 0.01802}}
+{"idx": "QSYN_0577_009", "qid": "dx_ghost_cell_glaucoma", "probs": {"0": 0.31917, "1": 0.31917, "2": 0.36166}}
+{"idx": "QSYN_0577_009", "qid": "dx_hemolytic_glaucoma", "probs": {"0": 0.51421, "1": 0.2429, "2": 0.2429}}
+{"idx": "QSYN_0577_009", "qid": "dx_neovascular_glaucoma", "probs": {"0": 0.25428, "1": 0.41923, "2": 0.3265}}
+{"idx": "QSYN_0577_009", "qid": "dx_hemosiderotic_glaucoma", "probs": {"0": 0.33655, "1": 0.23131, "2": 0.43214}}
+{"idx": "QSYN_0584_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.62246, "True": 0.37754}}
+{"idx": "QSYN_0584_004", "qid": "safe_defer_until_prerequisite_completed_acceptable", "probs": {"False": 0.43782, "True": 0.56218}}
+{"idx": "QSYN_0584_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.06969, "proceed_with_modification_or_precaution": 0.58349, "defer_until_prerequisite_completed": 0.1149, "contraindicated_choose_alternative": 0.16717, "escalate_for_specialist_decision": 0.0615, "outside_catalog_escalate": 0.00326}}
+{"idx": "QSYN_0606_004", "qid": "dx_gyrate_atrophy", "probs": {"0": 0.00407, "1": 0.00116, "2": 0.99477}}
+{"idx": "QSYN_0606_004", "qid": "dx_choroideremia", "probs": {"0": 0.02907, "1": 0.00833, "2": 0.9626}}
+{"idx": "QSYN_0606_004", "qid": "dx_cobblestone_degeneration", "probs": {"0": 0.85803, "1": 0.06216, "2": 0.07981}}
+{"idx": "QSYN_0606_004", "qid": "dx_retinitis_pigmentosa", "probs": {"0": 0.62201, "1": 0.29381, "2": 0.08418}}
+{"idx": "QSYN_0619_002", "qid": "dx_hemangiopericytoma", "probs": {"0": 0.75287, "1": 0.24442, "2": 0.00272}}
+{"idx": "QSYN_0619_002", "qid": "dx_cavernous_hemangioma", "probs": {"0": 0.43051, "1": 0.55279, "2": 0.01669}}
+{"idx": "QSYN_0619_002", "qid": "dx_glomus_tumor", "probs": {"0": 0.84816, "1": 0.14739, "2": 0.00445}}
+{"idx": "QSYN_0619_002", "qid": "inv_histopathology_or_biopsy_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "QSYN_0619_002", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.90465, "True": 0.09535}}
+{"idx": "QSYN_0619_002", "qid": "inv_preferred", "probs": {"orbital_or_neuro_imaging_ct_mri": 0.04452, "histopathology_or_biopsy": 0.78913, "no_additional_investigation_needed": 0.15539, "laboratory_or_serology_workup": 0.00322, "outside_catalog_escalate": 0.00774}}
+{"idx": "QSYN_0619_002", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.29421, "True": 0.70579}}
+{"idx": "QSYN_0619_002", "qid": "mgmt_preferred", "probs": {"individualized_surgical_evaluation": 0.94644, "start_systemic_medical_therapy": 0.00111, "observation_monitoring_only": 0.00497, "start_intravitreal_or_periocular_therapy": 0.00036, "outside_catalog_escalate": 0.04712}}
+{"idx": "QSYN_0621_007", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.00669, "True": 0.99331}}
+{"idx": "QSYN_0621_007", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.32082, "True": 0.67918}}
+{"idx": "QSYN_0621_007", "qid": "mgmt_preferred", "probs": {"start_topical_medical_therapy": 0.98475, "start_systemic_medical_therapy": 0.0124, "observation_monitoring_only": 0.0007, "individualized_surgical_evaluation": 0.00048, "outside_catalog_escalate": 0.00168}}
+{"idx": "QSYN_0637_001", "qid": "dx_beta_blockers", "probs": {"0": 0.76787, "1": 0.1512, "2": 0.08093}}
+{"idx": "QSYN_0637_001", "qid": "dx_prostaglandin_analogs", "probs": {"0": 0.66241, "1": 0.1478, "2": 0.18978}}
+{"idx": "QSYN_0637_001", "qid": "dx_carbonic_anhydrase_inhibitors", "probs": {"0": 0.65722, "1": 0.21337, "2": 0.12941}}
+{"idx": "QSYN_0659_008", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "QSYN_0659_008", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00252, "continue_current_management": 0.00082, "adjust_current_nonsurgical_management": 0.03073, "individualized_surgical_evaluation": 0.06505, "complete_assessment_before_deciding": 0.89802, "outside_catalog_escalate": 0.00286}}
+{"idx": "QSYN_0681_003", "qid": "dx_congenital_sixth_nerve_palsy", "probs": {"0": 0.38914, "1": 0.34341, "2": 0.26745}}
+{"idx": "QSYN_0681_003", "qid": "dx_infantile_esotropia", "probs": {"0": 0.63323, "1": 0.33895, "2": 0.02782}}
+{"idx": "QSYN_0681_003", "qid": "dx_pseudoesotropia", "probs": {"0": 0.99894, "1": 0.00063, "2": 0.00043}}
+{"idx": "QSYN_0681_003", "qid": "dx_sensory_esotropia", "probs": {"0": 0.99007, "1": 0.00589, "2": 0.00405}}
+{"idx": "QSYN_0681_003", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.95257, "True": 0.04743}}
+{"idx": "QSYN_0681_003", "qid": "mgmt_outside_catalog_escalate_acceptable", "probs": {"False": 0.73106, "True": 0.26894}}
+{"idx": "QSYN_0681_003", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.01436, "adjust_current_nonsurgical_management": 0.0032, "individualized_surgical_evaluation": 0.78416, "outside_catalog_escalate": 0.19827}}
+{"idx": "QSYN_0681_003", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.20181, "True": 0.79819}}
+{"idx": "QSYN_0681_003", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.89331, "True": 0.10669}}
+{"idx": "QSYN_0681_003", "qid": "inv_preferred", "probs": {"orbital_or_neuro_imaging_ct_mri": 0.79524, "no_additional_investigation_needed": 0.07397, "complete_comprehensive_eye_examination": 0.12195, "outside_catalog_escalate": 0.00883}}
+{"idx": "QSYN_0704_009", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.59267, "True": 0.40733}}
+{"idx": "QSYN_0704_009", "qid": "mgmt_preferred", "probs": {"individualized_surgical_evaluation": 0.72989, "observation_monitoring_only": 0.0016, "outside_catalog_escalate": 0.26851}}
+{"idx": "QSYN_0724_015", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.93245, "True": 0.06755}}
+{"idx": "QSYN_0724_015", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.10419, "proceed_with_modification_or_precaution": 0.36367, "defer_until_prerequisite_completed": 0.0141, "contraindicated_choose_alternative": 0.36367, "escalate_for_specialist_decision": 0.1516, "outside_catalog_escalate": 0.00278}}
+{"idx": "QSYN_0731_007", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.10669, "True": 0.89331}}
+{"idx": "QSYN_0731_007", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.9466, "True": 0.0534}}
+{"idx": "QSYN_0731_007", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.34229, "proceed_with_modification_or_precaution": 0.56434, "contraindicated_choose_alternative": 0.05249, "outside_catalog_escalate": 0.04088}}
+{"idx": "QSYN_0744_006", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.06755, "True": 0.93245}}
+{"idx": "QSYN_0777_008", "qid": "mgmt_laser_or_office_procedure_evaluation_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "QSYN_0777_008", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.97967, "True": 0.02033}}
+{"idx": "QSYN_0777_008", "qid": "mgmt_preferred", "probs": {"laser_or_office_procedure_evaluation": 0.25985, "individualized_surgical_evaluation": 0.29445, "observation_monitoring_only": 0.00255, "continue_current_management": 0.00128, "adjust_current_nonsurgical_management": 0.03104, "start_topical_medical_therapy": 0.22932, "start_systemic_medical_therapy": 0.00136, "start_intravitreal_or_periocular_therapy": 0.00039, "stop_or_taper_current_therapy": 0.00078, "complete_assessment_before_deciding": 0.15761, "escalate_to_specialist_or_mdt": 0.01661, "outside_catalog_escalate": 0.00476}}
+{"idx": "QSYN_0809_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.99478, "True": 0.00522}}
+{"idx": "QSYN_0809_004", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "QSYN_0809_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.01373, "proceed_with_modification_or_precaution": 0.01373, "defer_until_prerequisite_completed": 0.00347, "contraindicated_choose_alternative": 0.96238, "escalate_for_specialist_decision": 0.00505, "outside_catalog_escalate": 0.00164}}
+{"idx": "QSYN_0855_002", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.2227, "True": 0.7773}}
+{"idx": "QSYN_0855_002", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00121, "start_systemic_medical_therapy": 0.02147, "individualized_surgical_evaluation": 0.71098, "escalate_to_specialist_or_mdt": 0.26155, "outside_catalog_escalate": 0.00479}}
+{"idx": "QSYN_0884_004", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "QSYN_0884_004", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.81218, "proceed_with_modification_or_precaution": 0.18122, "defer_until_prerequisite_completed": 0.00376, "contraindicated_choose_alternative": 0.00178, "escalate_for_specialist_decision": 0.00058, "outside_catalog_escalate": 0.00048}}
+{"idx": "QSYN_0889_008", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.01591, "True": 0.98409}}
+{"idx": "QSYN_0889_008", "qid": "safe_defer_until_prerequisite_completed_acceptable", "probs": {"False": 0.97702, "True": 0.02298}}
+{"idx": "QSYN_0889_008", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.98594, "True": 0.01406}}
+{"idx": "QSYN_0889_008", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.98466, "proceed_with_modification_or_precaution": 0.00586, "defer_until_prerequisite_completed": 0.00402, "contraindicated_choose_alternative": 0.00277, "escalate_for_specialist_decision": 0.00102, "outside_catalog_escalate": 0.00168}}
+{"idx": "QSYN_0906_001", "qid": "dx_myelinated_retinal_nerve_fiber_layer", "probs": {"0": 0.01779, "1": 0.01079, "2": 0.97142}}
+{"idx": "QSYN_0906_001", "qid": "dx_retinoblastoma", "probs": {"0": 0.95367, "1": 0.03698, "2": 0.00935}}
+{"idx": "QSYN_0906_001", "qid": "dx_neoplastic_infiltrate", "probs": {"0": 0.98077, "1": 0.00962, "2": 0.00962}}
+{"idx": "QSYN_0906_001", "qid": "dx_cotton_wool_spots", "probs": {"0": 0.75061, "1": 0.1478, "2": 0.10158}}
+{"idx": "QSYN_0955_008", "qid": "dx_multiple_system_atrophy", "probs": {"0": 0.43348, "1": 0.49119, "2": 0.07533}}
+{"idx": "QSYN_0955_008", "qid": "dx_progressive_supranuclear_palsy", "probs": {"0": 0.03668, "1": 0.01733, "2": 0.94599}}
+{"idx": "QSYN_0955_008", "qid": "dx_parkinson_s_disease", "probs": {"0": 0.95697, "1": 0.0255, "2": 0.01753}}
+{"idx": "QSYN_0961_007", "qid": "dx_ici_associated_optic_neuritis", "probs": {"0": 0.0947, "1": 0.48091, "2": 0.4244}}
+{"idx": "QSYN_0961_007", "qid": "dx_ici_associated_orbital_inflammatory_syndrome", "probs": {"0": 0.68451, "1": 0.25182, "2": 0.06367}}
+{"idx": "QSYN_0961_007", "qid": "dx_ici_associated_myasthenia_gravis", "probs": {"0": 0.91244, "1": 0.0661, "2": 0.02146}}
+{"idx": "QSYN_1001_004", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "QSYN_1001_004", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.89331, "True": 0.10669}}
+{"idx": "QSYN_1001_004", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.72633, "continue_current_management": 0.18364, "start_topical_medical_therapy": 0.00432, "individualized_surgical_evaluation": 0.02485, "escalate_to_specialist_or_mdt": 0.05962, "outside_catalog_escalate": 0.00124}}
+{"idx": "QSYN_1044_006", "qid": "dx_ocular_rosacea", "probs": {"0": 0.95569, "1": 0.02886, "2": 0.01545}}
+{"idx": "QSYN_1044_006", "qid": "dx_lupus_erythematosus", "probs": {"0": 0.98789, "1": 0.00855, "2": 0.00356}}
+{"idx": "QSYN_1044_006", "qid": "dx_herpes_simplex_keratitis", "probs": {"0": 0.99765, "1": 0.00132, "2": 0.00103}}
+{"idx": "QSYN_1044_006", "qid": "dx_seborrheic_or_contact_dermatitis", "probs": {"0": 0.3838, "1": 0.4349, "2": 0.18129}}
+{"idx": "QSYN_1044_006", "qid": "dx_cellulitis", "probs": {"0": 0.99928, "1": 0.00034, "2": 0.00038}}
+{"idx": "QSYN_1044_006", "qid": "dx_atopic_dermatitis", "probs": {"0": 0.15727, "1": 0.29381, "2": 0.54892}}
+{"idx": "QSYN_1056_003", "qid": "dx_oculogyric_crisis", "probs": {"0": 0.59859, "1": 0.3204, "2": 0.08101}}
+{"idx": "QSYN_1056_003", "qid": "dx_paroxysmal_tonic_upgaze_syndrome", "probs": {"0": 0.70538, "1": 0.2595, "2": 0.03512}}
+{"idx": "QSYN_1056_003", "qid": "dx_epileptic_seizure", "probs": {"0": 0.82121, "1": 0.14271, "2": 0.03608}}
+{"idx": "QSYN_1056_003", "qid": "dx_l_dopa_induced_ocular_dyskinesia", "probs": {"0": 0.3158, "1": 0.2787, "2": 0.4055}}
+{"idx": "QSYN_1073_003", "qid": "dx_wernicke_encephalopathy", "probs": {"0": 0.80393, "1": 0.17938, "2": 0.01669}}
+{"idx": "QSYN_1073_003", "qid": "dx_idiopathic_intracranial_hypertension", "probs": {"0": 0.99828, "1": 0.00117, "2": 0.00055}}
+{"idx": "QSYN_1073_003", "qid": "dx_nutritional_optic_neuropathy", "probs": {"0": 0.00846, "1": 0.01394, "2": 0.9776}}
+{"idx": "QSYN_1073_003", "qid": "dx_cavernous_sinus_thrombosis", "probs": {"0": 0.99963, "1": 0.00023, "2": 0.00014}}
+{"idx": "QSYN_1128_001", "qid": "dx_optociliary_shunt_vessels", "probs": {"0": 0.44982, "1": 0.10037, "2": 0.44982}}
+{"idx": "QSYN_1128_001", "qid": "dx_neovascularization_of_the_disc", "probs": {"0": 0.93859, "1": 0.03639, "2": 0.02501}}
+{"idx": "QSYN_1128_001", "qid": "dx_optic_disc_drusen", "probs": {"0": 0.9792, "1": 0.01233, "2": 0.00847}}
+{"idx": "QSYN_1128_006", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.18243, "True": 0.81757}}
+{"idx": "QSYN_1128_006", "qid": "mgmt_laser_or_office_procedure_evaluation_acceptable", "probs": {"False": 0.46879, "True": 0.53121}}
+{"idx": "QSYN_1128_006", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.9149, "True": 0.0851}}
+{"idx": "QSYN_1128_006", "qid": "mgmt_complete_assessment_before_deciding_acceptable", "probs": {"False": 0.59267, "True": 0.40733}}
+{"idx": "QSYN_1128_006", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.6368, "start_systemic_medical_therapy": 0.00379, "laser_or_office_procedure_evaluation": 0.20674, "start_intravitreal_or_periocular_therapy": 0.00216, "complete_assessment_before_deciding": 0.12539, "escalate_to_specialist_or_mdt": 0.02179, "outside_catalog_escalate": 0.00334}}
+{"idx": "QSYN_1130_006", "qid": "mgmt_outside_catalog_escalate_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "QSYN_1130_006", "qid": "mgmt_preferred", "probs": {"start_systemic_medical_therapy": 0.14695, "start_topical_medical_therapy": 0.00346, "observation_monitoring_only": 0.00185, "individualized_surgical_evaluation": 0.0021, "outside_catalog_escalate": 0.84565}}
+{"idx": "QSYN_1135_002", "qid": "dx_cavernous_venous_malformation", "probs": {"0": 0.99779, "1": 0.0015, "2": 0.00071}}
+{"idx": "QSYN_1135_002", "qid": "dx_peripheral_nerve_sheath_tumor", "probs": {"0": 0.98718, "1": 0.00968, "2": 0.00314}}
+{"idx": "QSYN_1135_002", "qid": "dx_hemangiopericytoma", "probs": {"0": 0.97262, "1": 0.02287, "2": 0.0045}}
+{"idx": "QSYN_1135_002", "qid": "dx_orbital_inflammatory_pseudotumor", "probs": {"0": 0.0116, "1": 0.06676, "2": 0.92164}}
+{"idx": "QSYN_1156_008", "qid": "dx_orbital_pheochromocytoma", "probs": {"0": 0.15135, "1": 0.3204, "2": 0.52825}}
+{"idx": "QSYN_1156_008", "qid": "dx_thyroid_eye_disease", "probs": {"0": 0.96634, "1": 0.02918, "2": 0.00448}}
+{"idx": "QSYN_1156_008", "qid": "dx_carcinoid_syndrome", "probs": {"0": 0.69429, "1": 0.25542, "2": 0.05029}}
+{"idx": "QSYN_1160_016", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.06755, "True": 0.93245}}
+{"idx": "QSYN_1160_016", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.90465, "True": 0.09535}}
+{"idx": "QSYN_1160_016", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.84678, "proceed_with_modification_or_precaution": 0.05413, "defer_until_prerequisite_completed": 0.03283, "contraindicated_choose_alternative": 0.03283, "escalate_for_specialist_decision": 0.02898, "outside_catalog_escalate": 0.00444}}
+{"idx": "QSYN_1188_001", "qid": "dx_parkinson_sign", "probs": {"0": 0.79312, "1": 0.0507, "2": 0.15618}}
+{"idx": "QSYN_1188_001", "qid": "dx_pontine_lesion", "probs": {"0": 0.89575, "1": 0.03936, "2": 0.06489}}
+{"idx": "QSYN_1188_001", "qid": "dx_isolated_horner_syndrome", "probs": {"0": 0.43017, "1": 0.13966, "2": 0.43017}}
+{"idx": "QSYN_1188_001", "qid": "inv_orbital_or_neuro_imaging_ct_mri_acceptable", "probs": {"False": 0.09535, "True": 0.90465}}
+{"idx": "QSYN_1188_001", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.26894, "True": 0.73106}}
+{"idx": "QSYN_1188_001", "qid": "inv_preferred", "probs": {"orbital_or_neuro_imaging_ct_mri": 0.78508, "laboratory_or_serology_workup": 0.00872, "no_additional_investigation_needed": 0.1985, "outside_catalog_escalate": 0.0077}}
+{"idx": "QSYN_1193_007", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.00359, "True": 0.99641}}
+{"idx": "QSYN_1193_007", "qid": "mgmt_preferred", "probs": {"start_intravitreal_or_periocular_therapy": 0.99852, "laser_or_office_procedure_evaluation": 0.00012, "observation_monitoring_only": 0.00012, "start_systemic_medical_therapy": 7e-05, "outside_catalog_escalate": 0.00117}}
+{"idx": "QSYN_1198_001", "qid": "inv_complete_comprehensive_eye_examination_acceptable", "probs": {"False": 0.34865, "True": 0.65135}}
+{"idx": "QSYN_1198_001", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.98594, "True": 0.01406}}
+{"idx": "QSYN_1198_001", "qid": "inv_preferred", "probs": {"complete_comprehensive_eye_examination": 0.24582, "visual_acuity_and_refraction": 0.58968, "oct_macula_or_rnfl": 0.00953, "electrophysiology_erg_vep": 0.10247, "genetic_testing": 0.00742, "no_additional_investigation_needed": 0.01571, "outside_catalog_escalate": 0.02936}}
+{"idx": "QSYN_1216_002", "qid": "dx_phoms", "probs": {"0": 0.09359, "1": 0.01843, "2": 0.88798}}
+{"idx": "QSYN_1216_002", "qid": "dx_optic_disc_drusen", "probs": {"0": 0.88059, "1": 0.09281, "2": 0.02659}}
+{"idx": "QSYN_1216_002", "qid": "dx_papilledema", "probs": {"0": 0.09336, "1": 0.02083, "2": 0.8858}}
+{"idx": "QSYN_1253_008", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.9997, "True": 0.0003}}
+{"idx": "QSYN_1253_008", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.40733, "True": 0.59267}}
+{"idx": "QSYN_1253_008", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.00133, "individualized_surgical_evaluation": 0.78052, "start_systemic_medical_therapy": 0.0208, "outside_catalog_escalate": 0.19735}}
+{"idx": "QSYN_1270_005", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.56218, "True": 0.43782}}
+{"idx": "QSYN_1270_005", "qid": "mgmt_adjust_current_nonsurgical_management_acceptable", "probs": {"False": 0.29421, "True": 0.70579}}
+{"idx": "QSYN_1270_005", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.56218, "True": 0.43782}}
+{"idx": "QSYN_1270_005", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.09347, "adjust_current_nonsurgical_management": 0.22423, "individualized_surgical_evaluation": 0.60951, "outside_catalog_escalate": 0.0728}}
+{"idx": "QSYN_1273_001", "qid": "dx_retinal_detachment", "probs": {"0": 0.99739, "1": 0.0017, "2": 0.00091}}
+{"idx": "QSYN_1273_001", "qid": "dx_asteroid_hyalosis", "probs": {"0": 0.99022, "1": 0.0052, "2": 0.00459}}
+{"idx": "QSYN_1273_001", "qid": "dx_vitreous_hemorrhage", "probs": {"0": 0.99698, "1": 0.00055, "2": 0.00247}}
+{"idx": "QSYN_1273_001", "qid": "dx_vitreous_inflammation", "probs": {"0": 0.98888, "1": 0.00357, "2": 0.00755}}
+{"idx": "QSYN_1273_001", "qid": "dx_ocular_large_cell_lymphoma", "probs": {"0": 0.99875, "1": 0.00034, "2": 0.00091}}
+{"idx": "QSYN_1306_005", "qid": "inv_corneal_imaging_topography_pachymetry_acceptable", "probs": {"False": 0.07586, "True": 0.92414}}
+{"idx": "QSYN_1306_005", "qid": "inv_complete_comprehensive_eye_examination_acceptable", "probs": {"False": 0.01406, "True": 0.98594}}
+{"idx": "QSYN_1306_005", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.59267, "True": 0.40733}}
+{"idx": "QSYN_1306_005", "qid": "inv_preferred", "probs": {"gonioscopy": 0.24576, "corneal_imaging_topography_pachymetry": 0.10245, "complete_comprehensive_eye_examination": 0.58954, "no_additional_investigation_needed": 0.04839, "outside_catalog_escalate": 0.01386}}
+{"idx": "QSYN_1312_003", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.10669, "True": 0.89331}}
+{"idx": "QSYN_1312_003", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.56218, "True": 0.43782}}
+{"idx": "QSYN_1312_003", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.85251, "start_topical_medical_therapy": 0.08985, "individualized_surgical_evaluation": 0.02005, "continue_current_management": 0.00836, "escalate_to_specialist_or_mdt": 0.02574, "outside_catalog_escalate": 0.00348}}
+{"idx": "QSYN_1338_003", "qid": "dx_radiation_optic_neuropathy", "probs": {"0": 0.01679, "1": 0.06641, "2": 0.9168}}
+{"idx": "QSYN_1338_003", "qid": "dx_compressive_optic_neuropathy", "probs": {"0": 0.98373, "1": 0.00964, "2": 0.00663}}
+{"idx": "QSYN_1338_003", "qid": "dx_toxic_optic_neuropathy", "probs": {"0": 0.06338, "1": 0.46831, "2": 0.46831}}
+{"idx": "QSYN_1338_003", "qid": "dx_giant_cell_arteritis", "probs": {"0": 0.96634, "1": 0.02918, "2": 0.00448}}
+{"idx": "QSYN_1367_008", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.2227, "True": 0.7773}}
+{"idx": "QSYN_1367_008", "qid": "mgmt_escalate_to_specialist_or_mdt_acceptable", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "QSYN_1367_008", "qid": "mgmt_preferred", "probs": {"start_intravitreal_or_periocular_therapy": 0.61598, "start_systemic_medical_therapy": 0.02388, "observation_monitoring_only": 0.05056, "escalate_to_specialist_or_mdt": 0.29097, "outside_catalog_escalate": 0.0186}}
+{"idx": "QSYN_1375_016", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.99409, "True": 0.00591}}
+{"idx": "QSYN_1375_016", "qid": "safe_contraindicated_choose_alternative_acceptable", "probs": {"False": 0.03309, "True": 0.96691}}
+{"idx": "QSYN_1375_016", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.00513, "proceed_with_modification_or_precaution": 0.00582, "defer_until_prerequisite_completed": 0.004, "contraindicated_choose_alternative": 0.97839, "escalate_for_specialist_decision": 0.00582, "outside_catalog_escalate": 0.00084}}
+{"idx": "QSYN_1414_001", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.96267, "True": 0.03733}}
+{"idx": "QSYN_1414_001", "qid": "safe_proceed_with_modification_or_precaution_acceptable", "probs": {"False": 0.29421, "True": 0.70579}}
+{"idx": "QSYN_1414_001", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.00795, "proceed_with_modification_or_precaution": 0.14098, "defer_until_prerequisite_completed": 0.8113, "contraindicated_choose_alternative": 0.03146, "escalate_for_specialist_decision": 0.00795, "outside_catalog_escalate": 0.00035}}
+{"idx": "QSYN_1437_005", "qid": "dx_hypertensive_choroidopathy", "probs": {"0": 0.45186, "1": 0.27407, "2": 0.27407}}
+{"idx": "QSYN_1437_005", "qid": "dx_central_serous_chorioretinopathy", "probs": {"0": 0.99164, "1": 0.00316, "2": 0.0052}}
+{"idx": "QSYN_1459_004", "qid": "mgmt_start_intravitreal_or_periocular_therapy_acceptable", "probs": {"False": 0.00971, "True": 0.99029}}
+{"idx": "QSYN_1459_004", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.79819, "True": 0.20181}}
+{"idx": "QSYN_1459_004", "qid": "mgmt_preferred", "probs": {"start_intravitreal_or_periocular_therapy": 0.9971, "observation_monitoring_only": 0.00012, "individualized_surgical_evaluation": 0.0015, "start_systemic_medical_therapy": 0.00011, "outside_catalog_escalate": 0.00117}}
+{"idx": "QSYN_1481_003", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.01406, "True": 0.98594}}
+{"idx": "QSYN_1481_003", "qid": "mgmt_individualized_surgical_evaluation_acceptable", "probs": {"False": 0.79819, "True": 0.20181}}
+{"idx": "QSYN_1481_003", "qid": "mgmt_preferred", "probs": {"start_topical_medical_therapy": 0.74072, "individualized_surgical_evaluation": 0.01357, "observation_monitoring_only": 0.00343, "continue_current_management": 0.00134, "escalate_to_specialist_or_mdt": 0.18728, "outside_catalog_escalate": 0.05366}}
+{"idx": "QSYN_1510_003", "qid": "mgmt_adjust_current_nonsurgical_management_acceptable", "probs": {"False": 0.62246, "True": 0.37754}}
+{"idx": "QSYN_1510_003", "qid": "mgmt_preferred", "probs": {"adjust_current_nonsurgical_management": 0.69014, "individualized_surgical_evaluation": 0.25389, "observation_monitoring_only": 0.00597, "outside_catalog_escalate": 0.04999}}
+{"idx": "QSYN_1568_001", "qid": "inv_outside_catalog_escalate_acceptable", "probs": {"False": 0.85195, "True": 0.14805}}
+{"idx": "QSYN_1568_001", "qid": "inv_no_additional_investigation_needed_acceptable", "probs": {"False": 0.96691, "True": 0.03309}}
+{"idx": "QSYN_1568_001", "qid": "inv_preferred", "probs": {"outside_catalog_escalate": 0.09364, "histopathology_or_biopsy": 0.22462, "no_additional_investigation_needed": 0.05679, "review_prior_records_or_repeat_test": 0.01436, "systemic_or_multidisciplinary_evaluation": 0.61059}}
+{"idx": "QSYN_1569_001", "qid": "dx_thyroid_eye_disease", "probs": {"0": 0.00405, "1": 0.00459, "2": 0.99136}}
+{"idx": "QSYN_1569_001", "qid": "dx_orbital_pseudotumor", "probs": {"0": 0.49687, "1": 0.49687, "2": 0.00625}}
+{"idx": "QSYN_1569_001", "qid": "dx_caroticocavernous_fistula", "probs": {"0": 0.89134, "1": 0.10645, "2": 0.00221}}
+{"idx": "QSYN_1569_001", "qid": "dx_igg4_disease", "probs": {"0": 0.64536, "1": 0.34544, "2": 0.00921}}
+{"idx": "QSYN_1569_001", "qid": "dx_orbital_tumors", "probs": {"0": 0.61986, "1": 0.37596, "2": 0.00418}}
+{"idx": "QSYN_1580_001", "qid": "dx_torpedo_maculopathy", "probs": {"0": 0.03264, "1": 0.0136, "2": 0.95376}}
+{"idx": "QSYN_1580_001", "qid": "dx_congenital_rpe_hypertrophy", "probs": {"0": 0.51543, "1": 0.13032, "2": 0.35425}}
+{"idx": "QSYN_1580_001", "qid": "dx_viteliform_dystrophy", "probs": {"0": 0.82797, "1": 0.05998, "2": 0.11205}}
+{"idx": "QSYN_1648_003", "qid": "safe_proceed_as_planned_acceptable", "probs": {"False": 0.99478, "True": 0.00522}}
+{"idx": "QSYN_1648_003", "qid": "safe_defer_until_prerequisite_completed_acceptable", "probs": {"False": 0.04743, "True": 0.95257}}
+{"idx": "QSYN_1648_003", "qid": "safe_preferred", "probs": {"proceed_as_planned": 0.00189, "proceed_with_modification_or_precaution": 0.00747, "defer_until_prerequisite_completed": 0.97896, "contraindicated_choose_alternative": 0.004, "escalate_for_specialist_decision": 0.0066, "outside_catalog_escalate": 0.00108}}
+{"idx": "QSYN_1693_004", "qid": "mgmt_observation_monitoring_only_acceptable", "probs": {"False": 0.00522, "True": 0.99478}}
+{"idx": "QSYN_1693_004", "qid": "mgmt_start_topical_medical_therapy_acceptable", "probs": {"False": 0.98201, "True": 0.01799}}
+{"idx": "QSYN_1693_004", "qid": "mgmt_start_systemic_medical_therapy_acceptable", "probs": {"False": 0.99782, "True": 0.00218}}
+{"idx": "QSYN_1693_004", "qid": "mgmt_preferred", "probs": {"observation_monitoring_only": 0.96138, "start_topical_medical_therapy": 0.00041, "start_systemic_medical_therapy": 0.00041, "laser_or_office_procedure_evaluation": 0.00015, "complete_assessment_before_deciding": 0.03728, "outside_catalog_escalate": 0.00037}}
+{"idx": "SCL_DR_00046", "qid": "dr_severity_od", "probs": {"0": 0.00571, "1": 0.18907, "2": 0.7478, "3": 0.05417, "4": 0.00325}}
+{"idx": "SCL_DR_00046", "qid": "dr_severity_os", "probs": {"0": 0.00244, "1": 0.00705, "2": 0.2645, "3": 0.71897, "4": 0.00705}}
+{"idx": "SCL_DR_00046", "qid": "dme_center_involving_od", "probs": {"False": 0.99945, "True": 0.00055}}
+{"idx": "SCL_DR_00046", "qid": "dme_center_involving_os", "probs": {"False": 0.99883, "True": 0.00117}}
+{"idx": "SCL_DR_00046", "qid": "referable_dr", "probs": {"False": 0.0534, "True": 0.9466}}
+{"idx": "SCL_DR_00059", "qid": "dr_severity_od", "probs": {"0": 0.01194, "1": 0.00821, "2": 0.65212, "3": 0.30804, "4": 0.01969}}
+{"idx": "SCL_DR_00059", "qid": "dr_severity_os", "probs": {"0": 0.0059, "1": 0.04641, "2": 0.64072, "3": 0.30265, "4": 0.00432}}
+{"idx": "SCL_DR_00059", "qid": "dme_center_involving_od", "probs": {"False": 0.99478, "True": 0.00522}}
+{"idx": "SCL_DR_00059", "qid": "dme_center_involving_os", "probs": {"False": 0.00522, "True": 0.99478}}
+{"idx": "SCL_DR_00059", "qid": "referable_dr", "probs": {"False": 0.00971, "True": 0.99029}}
+{"idx": "SCL_DR_00111", "qid": "dr_severity_od", "probs": {"0": 0.00928, "1": 0.00283, "2": 0.57386, "3": 0.3944, "4": 0.01964}}
+{"idx": "SCL_DR_00111", "qid": "dr_severity_os", "probs": {"0": 0.01038, "1": 0.01038, "2": 0.82426, "3": 0.14323, "4": 0.01176}}
+{"idx": "SCL_DR_00111", "qid": "dme_center_involving_od", "probs": {"False": 0.9983, "True": 0.0017}}
+{"idx": "SCL_DR_00111", "qid": "dme_center_involving_os", "probs": {"False": 0.99683, "True": 0.00317}}
+{"idx": "SCL_DR_00111", "qid": "referable_dr", "probs": {"False": 0.09535, "True": 0.90465}}
+{"idx": "SCL_DR_00181", "qid": "dr_severity_od", "probs": {"0": 0.00117, "1": 0.9985, "2": 0.00022, "3": 7e-05, "4": 4e-05}}
+{"idx": "SCL_DR_00181", "qid": "dr_severity_os", "probs": {"0": 0.00103, "1": 0.9981, "2": 0.00049, "3": 0.00024, "4": 0.00014}}
+{"idx": "SCL_DR_00181", "qid": "dme_center_involving_od", "probs": {"False": 0.9998, "True": 0.0002}}
+{"idx": "SCL_DR_00181", "qid": "dme_center_involving_os", "probs": {"False": 0.99974, "True": 0.00026}}
+{"idx": "SCL_DR_00181", "qid": "referable_dr", "probs": {"False": 0.99951, "True": 0.00049}}
+{"idx": "SCL_DR_00240", "qid": "dr_severity_od", "probs": {"0": 0.0096, "1": 0.00275, "2": 0.40818, "3": 0.46253, "4": 0.11695}}
+{"idx": "SCL_DR_00240", "qid": "dr_severity_os", "probs": {"0": 0.0014, "1": 0.00062, "2": 0.00246, "3": 0.00381, "4": 0.99171}}
+{"idx": "SCL_DR_00240", "qid": "dme_center_involving_od", "probs": {"False": 0.01243, "True": 0.98757}}
+{"idx": "SCL_DR_00240", "qid": "dme_center_involving_os", "probs": {"False": 0.01406, "True": 0.98594}}
+{"idx": "SCL_DR_00240", "qid": "referable_dr", "probs": {"False": 0.04209, "True": 0.95791}}
+{"idx": "SCL_DR_00260", "qid": "dr_severity_od", "probs": {"0": 0.00358, "1": 0.99396, "2": 0.00169, "3": 0.00055, "4": 0.00022}}
+{"idx": "SCL_DR_00260", "qid": "dr_severity_os", "probs": {"0": 0.00534, "1": 0.00569, "2": 0.58021, "3": 0.39877, "4": 0.00998}}
+{"idx": "SCL_DR_00260", "qid": "dme_center_involving_od", "probs": {"False": 0.99753, "True": 0.00247}}
+{"idx": "SCL_DR_00260", "qid": "dme_center_involving_os", "probs": {"False": 0.99539, "True": 0.00461}}
+{"idx": "SCL_DR_00260", "qid": "referable_dr", "probs": {"False": 0.03733, "True": 0.96267}}
+{"idx": "SCL_DR_00362", "qid": "dr_severity_od", "probs": {"0": 0.00618, "1": 0.00512, "2": 0.05862, "3": 0.917, "4": 0.01308}}
+{"idx": "SCL_DR_00362", "qid": "dr_severity_os", "probs": {"0": 0.0056, "1": 0.01344, "2": 0.73357, "3": 0.23816, "4": 0.00923}}
+{"idx": "SCL_DR_00362", "qid": "dme_center_involving_od", "probs": {"False": 0.00522, "True": 0.99478}}
+{"idx": "SCL_DR_00362", "qid": "dme_center_involving_os", "probs": {"False": 0.99539, "True": 0.00461}}
+{"idx": "SCL_DR_00362", "qid": "referable_dr", "probs": {"False": 0.01243, "True": 0.98757}}
+{"idx": "SCL_DR_00528", "qid": "dr_severity_od", "probs": {"0": 0.00298, "1": 0.01178, "2": 0.9355, "3": 0.04658, "4": 0.00317}}
+{"idx": "SCL_DR_00528", "qid": "dr_severity_os", "probs": {"0": 0.01045, "1": 0.02839, "2": 0.82981, "3": 0.12726, "4": 0.00409}}
+{"idx": "SCL_DR_00528", "qid": "dme_center_involving_od", "probs": {"False": 0.00971, "True": 0.99029}}
+{"idx": "SCL_DR_00528", "qid": "dme_center_involving_os", "probs": {"False": 0.99782, "True": 0.00218}}
+{"idx": "SCL_DR_00528", "qid": "referable_dr", "probs": {"False": 0.04209, "True": 0.95791}}
+{"idx": "SCL_DR_00600", "qid": "dr_severity_od", "probs": {"0": 0.00377, "1": 0.0116, "2": 0.92146, "3": 0.05891, "4": 0.00427}}
+{"idx": "SCL_DR_00600", "qid": "dr_severity_os", "probs": {"0": 0.00466, "1": 0.03037, "2": 0.88747, "3": 0.07285, "4": 0.00466}}
+{"idx": "SCL_DR_00600", "qid": "dme_center_involving_od", "probs": {"False": 0.99929, "True": 0.00071}}
+{"idx": "SCL_DR_00600", "qid": "dme_center_involving_os", "probs": {"False": 0.99883, "True": 0.00117}}
+{"idx": "SCL_DR_00600", "qid": "referable_dr", "probs": {"False": 0.5, "True": 0.5}}
+{"idx": "SCL_DR_00624", "qid": "dr_severity_od", "probs": {"0": 0.0017, "1": 0.99788, "2": 0.0003, "3": 8e-05, "4": 4e-05}}
+{"idx": "SCL_DR_00624", "qid": "dr_severity_os", "probs": {"0": 0.9997, "1": 0.00014, "2": 4e-05, "3": 3e-05, "4": 0.0001}}
+{"idx": "SCL_DR_00624", "qid": "dme_center_involving_od", "probs": {"False": 0.99945, "True": 0.00055}}
+{"idx": "SCL_DR_00624", "qid": "dme_center_involving_os", "probs": {"False": 0.99966, "True": 0.00034}}
+{"idx": "SCL_DR_00624", "qid": "referable_dr", "probs": {"False": 0.99782, "True": 0.00218}}
+{"idx": "SCL_DR_00629", "qid": "dr_severity_od", "probs": {"0": 0.00232, "1": 0.99678, "2": 0.00049, "3": 0.00024, "4": 0.00017}}
+{"idx": "SCL_DR_00629", "qid": "dr_severity_os", "probs": {"0": 0.00589, "1": 0.99031, "2": 0.0014, "3": 0.00131, "4": 0.00109}}
+{"idx": "SCL_DR_00629", "qid": "dme_center_involving_od", "probs": {"False": 0.99977, "True": 0.00023}}
+{"idx": "SCL_DR_00629", "qid": "dme_center_involving_os", "probs": {"False": 0.99962, "True": 0.00038}}
+{"idx": "SCL_DR_00629", "qid": "referable_dr", "probs": {"False": 0.9985, "True": 0.0015}}
+{"idx": "SCL_DR_00893", "qid": "dr_severity_od", "probs": {"0": 0.01355, "1": 0.00601, "2": 0.39602, "3": 0.5762, "4": 0.00822}}
+{"idx": "SCL_DR_00893", "qid": "dr_severity_os", "probs": {"0": 0.0046, "1": 0.99324, "2": 0.00132, "3": 0.00055, "4": 0.00029}}
+{"idx": "SCL_DR_00893", "qid": "dme_center_involving_od", "probs": {"False": 0.01799, "True": 0.98201}}
+{"idx": "SCL_DR_00893", "qid": "dme_center_involving_os", "probs": {"False": 0.99867, "True": 0.00133}}
+{"idx": "SCL_DR_00893", "qid": "referable_dr", "probs": {"False": 0.02596, "True": 0.97404}}
+{"idx": "SCL_DR_00919", "qid": "dr_severity_od", "probs": {"0": 0.00224, "1": 0.00446, "2": 0.96317, "3": 0.02567, "4": 0.00446}}
+{"idx": "SCL_DR_00919", "qid": "dr_severity_os", "probs": {"0": 0.00324, "1": 0.00778, "2": 0.89927, "3": 0.08365, "4": 0.00606}}
+{"idx": "SCL_DR_00919", "qid": "dme_center_involving_od", "probs": {"False": 0.99937, "True": 0.00063}}
+{"idx": "SCL_DR_00919", "qid": "dme_center_involving_os", "probs": {"False": 0.99909, "True": 0.00091}}
+{"idx": "SCL_DR_00919", "qid": "referable_dr", "probs": {"False": 0.34865, "True": 0.65135}}
+{"idx": "SCL_AMD_00229", "qid": "amd_stage_od", "probs": {"0": 0.01685, "1": 0.71641, "2": 0.26355, "3": 0.00293, "4": 0.00026}}
+{"idx": "SCL_AMD_00229", "qid": "amd_stage_os", "probs": {"0": 0.00428, "1": 0.0204, "2": 0.67566, "3": 0.28166, "4": 0.01801}}
+{"idx": "SCL_AMD_00229", "qid": "areds2_indicated", "probs": {"False": 0.70579, "True": 0.29421}}
+{"idx": "SCL_AMD_00452", "qid": "amd_stage_od", "probs": {"0": 0.00121, "1": 0.01014, "2": 0.80576, "3": 0.17979, "4": 0.00309}}
+{"idx": "SCL_AMD_00452", "qid": "amd_stage_os", "probs": {"0": 0.00815, "1": 0.94178, "2": 0.04138, "3": 0.00719, "4": 0.00151}}
+{"idx": "SCL_AMD_00452", "qid": "areds2_indicated", "probs": {"False": 0.93991, "True": 0.06009}}
+{"idx": "SCL_AMD_00527", "qid": "amd_stage_od", "probs": {"0": 0.00284, "1": 0.01195, "2": 0.01354, "3": 0.94934, "4": 0.02233}}
+{"idx": "SCL_AMD_00527", "qid": "amd_stage_os", "probs": {"0": 0.0035, "1": 0.0035, "2": 0.00742, "3": 0.01386, "4": 0.97171}}
+{"idx": "SCL_AMD_00527", "qid": "areds2_indicated", "probs": {"False": 0.10669, "True": 0.89331}}
+{"idx": "SCL_AMD_00547", "qid": "amd_stage_od", "probs": {"0": 0.00297, "1": 0.02486, "2": 0.72656, "3": 0.23588, "4": 0.00974}}
+{"idx": "SCL_AMD_00547", "qid": "amd_stage_os", "probs": {"0": 0.00523, "1": 0.87881, "2": 0.10496, "3": 0.00976, "4": 0.00124}}
+{"idx": "SCL_AMD_00547", "qid": "areds2_indicated", "probs": {"False": 0.93991, "True": 0.06009}}
+{"idx": "SCL_AMD_00675", "qid": "amd_stage_od", "probs": {"0": 0.00484, "1": 0.01091, "2": 0.21906, "3": 0.76461, "4": 0.00058}}
+{"idx": "SCL_AMD_00675", "qid": "amd_stage_os", "probs": {"0": 0.00522, "1": 0.01105, "2": 0.10485, "3": 0.87786, "4": 0.00103}}
+{"idx": "SCL_AMD_00675", "qid": "areds2_indicated", "probs": {"False": 0.53121, "True": 0.46879}}
+{"idx": "SCL_AMD_00917", "qid": "amd_stage_od", "probs": {"0": 0.00284, "1": 0.00072, "2": 0.00052, "3": 0.04723, "4": 0.94869}}
+{"idx": "SCL_AMD_00917", "qid": "amd_stage_os", "probs": {"0": 0.00336, "1": 0.00807, "2": 0.00297, "3": 0.93296, "4": 0.05263}}
+{"idx": "SCL_AMD_00917", "qid": "areds2_indicated", "probs": {"False": 0.2227, "True": 0.7773}}
+{"idx": "SCL_AMD_00956", "qid": "amd_stage_od", "probs": {"0": 0.02241, "1": 0.95307, "2": 0.01746, "3": 0.00642, "4": 0.00064}}
+{"idx": "SCL_AMD_00956", "qid": "amd_stage_os", "probs": {"0": 0.01063, "1": 0.84415, "2": 0.11424, "3": 0.02889, "4": 0.00209}}
+{"idx": "SCL_AMD_00956", "qid": "areds2_indicated", "probs": {"False": 0.86704, "True": 0.13296}}
+{"idx": "SCL_CAS_00010", "qid": "cas_total_od", "probs": {"0": 0.00358, "1": 0.06746, "2": 0.82183, "3": 0.08662, "4": 0.01706, "5": 0.00204, "6": 0.0004, "7": 0.00102}}
+{"idx": "SCL_CAS_00010", "qid": "ted_active_od", "probs": {"False": 0.85195, "True": 0.14805}}
+{"idx": "SCL_CAS_00114", "qid": "cas_total_od", "probs": {"0": 0.00337, "1": 0.93394, "2": 0.0465, "3": 0.01038, "4": 0.00279, "5": 0.00149, "6": 0.00029, "7": 0.00124}}
+{"idx": "SCL_CAS_00114", "qid": "ted_active_od", "probs": {"False": 0.93245, "True": 0.06755}}
+{"idx": "SCL_CAS_00939", "qid": "cas_total_od", "probs": {"0": 0.00329, "1": 0.03534, "2": 0.1584, "3": 0.29592, "4": 0.37997, "5": 0.07482, "6": 0.04005, "7": 0.01221}}
+{"idx": "SCL_CAS_00939", "qid": "ted_active_od", "probs": {"False": 0.53121, "True": 0.46879}}
+{"idx": "SCL_DR_00449~1", "qid": "dr_severity_od", "probs": {"0": 0.01137, "1": 0.01761, "2": 0.51463, "3": 0.45416, "4": 0.00224}}
+{"idx": "SCL_DR_00449~1", "qid": "dr_severity_os", "probs": {"0": 0.00334, "1": 0.04617, "2": 0.92726, "3": 0.01698, "4": 0.00625}}
+{"idx": "SCL_DR_00449~1", "qid": "dme_center_involving_od", "probs": {"False": 0.99897, "True": 0.00103}}
+{"idx": "SCL_DR_00449~1", "qid": "dme_center_involving_os", "probs": {"False": 0.02596, "True": 0.97404}}
+{"idx": "SCL_DR_00449~1", "qid": "referable_dr", "probs": {"False": 0.06755, "True": 0.93245}}
+{"idx": "SCL_AMD_00195~1", "qid": "amd_stage_od", "probs": {"0": 0.00387, "1": 0.00207, "2": 0.00467, "3": 0.04164, "4": 0.94774}}
+{"idx": "SCL_AMD_00195~1", "qid": "amd_stage_os", "probs": {"0": 0.00424, "1": 0.01389, "2": 0.04278, "3": 0.85918, "4": 0.07992}}
+{"idx": "SCL_AMD_00195~1", "qid": "areds2_indicated", "probs": {"False": 0.56218, "True": 0.43782}}
+{"idx": "SCL_AMD_00313~1", "qid": "amd_stage_od", "probs": {"0": 0.00988, "1": 0.41995, "2": 0.53923, "3": 0.03042, "4": 0.00052}}
+{"idx": "SCL_AMD_00313~1", "qid": "amd_stage_os", "probs": {"0": 0.00623, "1": 0.05555, "2": 0.41047, "3": 0.52705, "4": 0.0007}}
+{"idx": "SCL_AMD_00313~1", "qid": "areds2_indicated", "probs": {"False": 0.98594, "True": 0.01406}}
+{"idx": "SCL_AMD_00513~1", "qid": "amd_stage_od", "probs": {"0": 0.00427, "1": 0.052, "2": 0.38423, "3": 0.55905, "4": 0.00045}}
+{"idx": "SCL_AMD_00513~1", "qid": "amd_stage_os", "probs": {"0": 0.00696, "1": 0.02144, "2": 0.05827, "3": 0.91146, "4": 0.00187}}
+{"idx": "SCL_AMD_00513~1", "qid": "areds2_indicated", "probs": {"False": 0.67918, "True": 0.32082}}
+{"idx": "SCL_AMD_00560~1", "qid": "amd_stage_od", "probs": {"0": 0.00933, "1": 0.0369, "2": 0.10031, "3": 0.83988, "4": 0.01358}}
+{"idx": "SCL_AMD_00560~1", "qid": "amd_stage_os", "probs": {"0": 0.00359, "1": 0.01511, "2": 0.03624, "3": 0.93468, "4": 0.01038}}
+{"idx": "SCL_AMD_00560~1", "qid": "areds2_indicated", "probs": {"False": 0.85195, "True": 0.14805}}
+{"idx": "SCL_AMD_00669~1", "qid": "amd_stage_od", "probs": {"0": 0.00153, "1": 0.00325, "2": 0.00346, "3": 0.95894, "4": 0.03281}}
+{"idx": "SCL_AMD_00669~1", "qid": "amd_stage_os", "probs": {"0": 0.0009, "1": 0.00102, "2": 0.0004, "3": 0.52997, "4": 0.4677}}
+{"idx": "SCL_AMD_00669~1", "qid": "areds2_indicated", "probs": {"False": 0.34865, "True": 0.65135}}
+{"idx": "SCL_AMD_00683~1", "qid": "amd_stage_od", "probs": {"0": 0.00219, "1": 0.02073, "2": 0.68654, "3": 0.28619, "4": 0.00435}}
+{"idx": "SCL_AMD_00683~1", "qid": "amd_stage_os", "probs": {"0": 0.00198, "1": 0.05448, "2": 0.58573, "3": 0.35526, "4": 0.00255}}
+{"idx": "SCL_AMD_00683~1", "qid": "areds2_indicated", "probs": {"False": 0.73106, "True": 0.26894}}
+{"idx": "SCL_AMD_00739~1", "qid": "amd_stage_od", "probs": {"0": 0.00482, "1": 0.01395, "2": 0.11681, "3": 0.86312, "4": 0.0013}}
+{"idx": "SCL_AMD_00739~1", "qid": "amd_stage_os", "probs": {"0": 0.00443, "1": 0.00686, "2": 0.0225, "3": 0.95682, "4": 0.00938}}
+{"idx": "SCL_AMD_00739~1", "qid": "areds2_indicated", "probs": {"False": 0.92414, "True": 0.07586}}
+{"idx": "SCL_AMD_00745~1", "qid": "amd_stage_od", "probs": {"0": 0.00621, "1": 0.05895, "2": 0.29938, "3": 0.63378, "4": 0.00167}}
+{"idx": "SCL_AMD_00745~1", "qid": "amd_stage_os", "probs": {"0": 0.0052, "1": 0.07173, "2": 0.32149, "3": 0.60062, "4": 0.00096}}
+{"idx": "SCL_AMD_00745~1", "qid": "areds2_indicated", "probs": {"False": 0.89331, "True": 0.10669}}
+{"idx": "SCL_AMD_00979~1", "qid": "amd_stage_od", "probs": {"0": 0.00439, "1": 0.11316, "2": 0.3076, "3": 0.57468, "4": 0.00017}}
+{"idx": "SCL_AMD_00979~1", "qid": "amd_stage_os", "probs": {"0": 0.00594, "1": 0.01181, "2": 0.04121, "3": 0.93787, "4": 0.00318}}
+{"idx": "SCL_AMD_00979~1", "qid": "areds2_indicated", "probs": {"False": 0.83548, "True": 0.16452}}
+{"idx": "SCL_CAS_00384~1", "qid": "cas_total_od", "probs": {"0": 0.00428, "1": 0.06285, "2": 0.67567, "3": 0.21936, "4": 0.03364, "5": 0.00276, "6": 0.00054, "7": 0.0009}}
+{"idx": "SCL_CAS_00384~1", "qid": "ted_active_od", "probs": {"False": 0.8808, "True": 0.1192}}
+{"idx": "SCL_CAS_00545~1", "qid": "cas_total_od", "probs": {"0": 0.00306, "1": 0.01136, "2": 0.0137, "3": 0.03724, "4": 0.10776, "5": 0.29292, "6": 0.4262, "7": 0.10776}}
+{"idx": "SCL_CAS_00545~1", "qid": "ted_active_od", "probs": {"False": 0.03733, "True": 0.96267}}
+{"idx": "SCL_CAS_00627~1", "qid": "cas_total_od", "probs": {"0": 0.00723, "1": 0.05345, "2": 0.14528, "3": 0.34851, "4": 0.34851, "5": 0.06056, "6": 0.02525, "7": 0.0112}}
+{"idx": "SCL_CAS_00627~1", "qid": "ted_active_od", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "SCL_CAS_00717~1", "qid": "cas_total_od", "probs": {"0": 0.00551, "1": 0.03827, "2": 0.12547, "3": 0.34105, "4": 0.34105, "5": 0.09771, "6": 0.03595, "7": 0.01498}}
+{"idx": "SCL_CAS_00717~1", "qid": "ted_active_od", "probs": {"False": 0.16452, "True": 0.83548}}
+{"idx": "SCL_CAS_00769~1", "qid": "cas_total_od", "probs": {"0": 0.00759, "1": 0.2362, "2": 0.56662, "3": 0.16234, "4": 0.0249, "5": 0.00116, "6": 0.00033, "7": 0.00085}}
+{"idx": "SCL_CAS_00769~1", "qid": "ted_active_od", "probs": {"False": 0.95791, "True": 0.04209}}
+{"idx": "SCL_ROP_00129", "qid": "rop_etrop_od", "probs": {"type1": 0.00732, "type2": 0.14696, "neither": 0.84572}}
+{"idx": "SCL_ROP_00129", "qid": "rop_etrop_os", "probs": {"type1": 0.00843, "type2": 0.13184, "neither": 0.85973}}
+{"idx": "SCL_ROP_00129", "qid": "rop_treat_now", "probs": {"False": 0.99897, "True": 0.00103}}
+{"idx": "SCL_ROP_00172", "qid": "rop_etrop_od", "probs": {"type1": 0.69875, "type2": 0.29128, "neither": 0.00997}}
+{"idx": "SCL_ROP_00172", "qid": "rop_etrop_os", "probs": {"type1": 0.01632, "type2": 0.37138, "neither": 0.6123}}
+{"idx": "SCL_ROP_00172", "qid": "rop_treat_now", "probs": {"False": 0.59267, "True": 0.40733}}
+{"idx": "SCL_ROP_00247", "qid": "rop_etrop_od", "probs": {"type1": 0.01169, "type2": 0.05938, "neither": 0.92892}}
+{"idx": "SCL_ROP_00247", "qid": "rop_etrop_os", "probs": {"type1": 0.01355, "type2": 0.03682, "neither": 0.94963}}
+{"idx": "SCL_ROP_00247", "qid": "rop_treat_now", "probs": {"False": 0.99782, "True": 0.00218}}
+{"idx": "SCL_ROP_00327", "qid": "rop_etrop_od", "probs": {"type1": 0.01222, "type2": 0.13134, "neither": 0.85644}}
+{"idx": "SCL_ROP_00327", "qid": "rop_etrop_os", "probs": {"type1": 0.01692, "type2": 0.05907, "neither": 0.92401}}
+{"idx": "SCL_ROP_00327", "qid": "rop_treat_now", "probs": {"False": 0.9992, "True": 0.0008}}
+{"idx": "SCL_ROP_00421", "qid": "rop_etrop_od", "probs": {"type1": 0.00722, "type2": 0.04708, "neither": 0.9457}}
+{"idx": "SCL_ROP_00421", "qid": "rop_etrop_os", "probs": {"type1": 0.0084, "type2": 0.02016, "neither": 0.97143}}
+{"idx": "SCL_ROP_00421", "qid": "rop_treat_now", "probs": {"False": 0.99909, "True": 0.00091}}
+{"idx": "SCL_ROP_00594", "qid": "rop_etrop_od", "probs": {"type1": 0.95312, "type2": 0.04188, "neither": 0.005}}
+{"idx": "SCL_ROP_00594", "qid": "rop_etrop_os", "probs": {"type1": 0.91104, "type2": 0.08474, "neither": 0.00422}}
+{"idx": "SCL_ROP_00594", "qid": "rop_treat_now", "probs": {"False": 0.14805, "True": 0.85195}}
+{"idx": "SCL_ROP_00791", "qid": "rop_etrop_od", "probs": {"type1": 0.9845, "type2": 0.01094, "neither": 0.00456}}
+{"idx": "SCL_ROP_00791", "qid": "rop_etrop_os", "probs": {"type1": 0.27609, "type2": 0.66231, "neither": 0.0616}}
+{"idx": "SCL_ROP_00791", "qid": "rop_treat_now", "probs": {"False": 0.2227, "True": 0.7773}}
+{"idx": "SCL_EVS_00121", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.03459, "tap_inject": 0.07323, "outside_evs": 0.89217}}
+{"idx": "SCL_EVS_00204", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.06327, "tap_inject": 0.87345, "outside_evs": 0.06327}}
+{"idx": "SCL_EVS_00212", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.15265, "tap_inject": 0.77524, "outside_evs": 0.07211}}
+{"idx": "SCL_EVS_00268", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.0321, "tap_inject": 0.73068, "outside_evs": 0.23722}}
+{"idx": "SCL_EVS_00614", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.04436, "tap_inject": 0.89109, "outside_evs": 0.06455}}
+{"idx": "SCL_EVS_00839", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.95367, "tap_inject": 0.00935, "outside_evs": 0.03698}}
+{"idx": "SCL_CHANDLER_00030", "qid": "chandler_group", "probs": {"0": 0.00033, "1": 0.00052, "2": 0.99749, "3": 0.00117, "4": 0.00049}}
+{"idx": "SCL_CHANDLER_00068", "qid": "chandler_group", "probs": {"0": 0.00949, "1": 0.00272, "2": 0.21603, "3": 0.01773, "4": 0.75402}}
+{"idx": "SCL_CHANDLER_00225", "qid": "chandler_group", "probs": {"0": 0.99951, "1": 0.00026, "2": 0.00018, "3": 2e-05, "4": 3e-05}}
+{"idx": "SCL_CHANDLER_00228", "qid": "chandler_group", "probs": {"0": 0.99935, "1": 0.00038, "2": 0.00022, "3": 2e-05, "4": 4e-05}}
+{"idx": "SCL_CHANDLER_00629", "qid": "chandler_group", "probs": {"0": 0.00169, "1": 0.99037, "2": 0.0052, "3": 0.00217, "4": 0.00058}}
+{"idx": "SCL_CHANDLER_00830", "qid": "chandler_group", "probs": {"0": 0.99952, "1": 0.00028, "2": 0.00017, "3": 2e-05, "4": 2e-05}}
+{"idx": "SCL_WHO_00033", "qid": "who_vi_category", "probs": {"0": 0.07456, "1": 0.10848, "2": 0.29488, "3": 0.26023, "4": 0.22965, "5": 0.02743, "6": 0.00477}}
+{"idx": "SCL_WHO_00111", "qid": "who_vi_category", "probs": {"0": 0.03455, "1": 0.03049, "2": 0.12058, "3": 0.28925, "4": 0.4769, "5": 0.04436, "6": 0.00388}}
+{"idx": "SCL_WHO_00311", "qid": "who_vi_category", "probs": {"0": 0.20885, "1": 0.16265, "2": 0.18431, "3": 0.11179, "4": 0.11179, "5": 0.20885, "6": 0.01178}}
+{"idx": "SCL_WHO_00513", "qid": "who_vi_category", "probs": {"0": 0.02724, "1": 0.0509, "2": 0.2929, "3": 0.42617, "4": 0.17765, "5": 0.02122, "6": 0.00392}}
+{"idx": "SCL_WHO_00578", "qid": "who_vi_category", "probs": {"0": 0.14521, "1": 0.16455, "2": 0.34835, "3": 0.11309, "4": 0.18646, "5": 0.03672, "6": 0.00563}}
+{"idx": "SCL_WHO_00878", "qid": "who_vi_category", "probs": {"0": 0.04196, "1": 0.06105, "2": 0.18804, "3": 0.21307, "4": 0.45108, "5": 0.04196, "6": 0.00286}}
+{"idx": "SCL_WHO_00473", "qid": "who_vi_category", "probs": {"0": 0.00451, "1": 0.00074, "2": 0.00129, "3": 0.00074, "4": 0.00257, "5": 0.07511, "6": 0.91504}}
+{"idx": "SCL_WHO_00646", "qid": "who_vi_category", "probs": {"0": 0.00077, "1": 0.00446, "2": 0.00113, "3": 0.00944, "4": 0.05103, "5": 0.70446, "6": 0.22871}}
+{"idx": "SCL_WHO_00882", "qid": "who_vi_category", "probs": {"0": 0.01859, "1": 0.01641, "2": 0.05055, "3": 0.1374, "4": 0.61578, "5": 0.1374, "6": 0.02388}}
+{"idx": "SCL_ROP_00180~1", "qid": "rop_etrop_od", "probs": {"type1": 0.29264, "type2": 0.37576, "neither": 0.3316}}
+{"idx": "SCL_ROP_00180~1", "qid": "rop_etrop_os", "probs": {"type1": 0.3316, "type2": 0.37576, "neither": 0.29264}}
+{"idx": "SCL_ROP_00180~1", "qid": "rop_treat_now", "probs": {"False": 0.9466, "True": 0.0534}}
+{"idx": "SCL_ROP_00337~1", "qid": "rop_etrop_od", "probs": {"type1": 0.43388, "type2": 0.55711, "neither": 0.009}}
+{"idx": "SCL_ROP_00337~1", "qid": "rop_etrop_os", "probs": {"type1": 0.55711, "type2": 0.43388, "neither": 0.009}}
+{"idx": "SCL_ROP_00337~1", "qid": "rop_treat_now", "probs": {"False": 0.70579, "True": 0.29421}}
+{"idx": "SCL_ROP_00355~1", "qid": "rop_etrop_od", "probs": {"type1": 0.30176, "type2": 0.63882, "neither": 0.05942}}
+{"idx": "SCL_ROP_00355~1", "qid": "rop_etrop_os", "probs": {"type1": 0.39566, "type2": 0.57568, "neither": 0.02866}}
+{"idx": "SCL_ROP_00355~1", "qid": "rop_treat_now", "probs": {"False": 0.79819, "True": 0.20181}}
+{"idx": "SCL_ROP_00691~1", "qid": "rop_etrop_od", "probs": {"type1": 0.04178, "type2": 0.4492, "neither": 0.50901}}
+{"idx": "SCL_ROP_00691~1", "qid": "rop_etrop_os", "probs": {"type1": 0.98484, "type2": 0.00852, "neither": 0.00664}}
+{"idx": "SCL_ROP_00691~1", "qid": "rop_treat_now", "probs": {"False": 0.16452, "True": 0.83548}}
+{"idx": "SCL_ROP_00833~1", "qid": "rop_etrop_od", "probs": {"type1": 0.0059, "type2": 0.00192, "neither": 0.99218}}
+{"idx": "SCL_ROP_00833~1", "qid": "rop_etrop_os", "probs": {"type1": 0.00667, "type2": 0.00315, "neither": 0.99018}}
+{"idx": "SCL_ROP_00833~1", "qid": "rop_treat_now", "probs": {"False": 0.9998, "True": 0.0002}}
+{"idx": "SCL_ROP_00869~1", "qid": "rop_etrop_od", "probs": {"type1": 0.03961, "type2": 0.25829, "neither": 0.7021}}
+{"idx": "SCL_ROP_00869~1", "qid": "rop_etrop_os", "probs": {"type1": 0.86681, "type2": 0.11731, "neither": 0.01588}}
+{"idx": "SCL_ROP_00869~1", "qid": "rop_treat_now", "probs": {"False": 0.43782, "True": 0.56218}}
+{"idx": "SCL_CHANDLER_00024~1", "qid": "chandler_group", "probs": {"0": 0.00518, "1": 0.98678, "2": 0.00518, "3": 0.0019, "4": 0.00096}}
+{"idx": "SCL_CHANDLER_00076~1", "qid": "chandler_group", "probs": {"0": 0.99895, "1": 0.00026, "2": 0.00026, "3": 4e-05, "4": 0.00049}}
+{"idx": "SCL_CHANDLER_00133~1", "qid": "chandler_group", "probs": {"0": 0.00313, "1": 0.98294, "2": 0.00662, "3": 0.00516, "4": 0.00215}}
+{"idx": "SCL_CHANDLER_00207~1", "qid": "chandler_group", "probs": {"0": 0.99959, "1": 0.00022, "2": 0.00014, "3": 1e-05, "4": 4e-05}}
+{"idx": "SCL_CHANDLER_00391~1", "qid": "chandler_group", "probs": {"0": 0.00579, "1": 0.97363, "2": 0.01082, "3": 0.00398, "4": 0.00579}}
+{"idx": "SCL_CHANDLER_00578~1", "qid": "chandler_group", "probs": {"0": 0.00277, "1": 0.98486, "2": 0.00752, "3": 0.00355, "4": 0.00131}}
+{"idx": "SCL_CHANDLER_00589~1", "qid": "chandler_group", "probs": {"0": 0.00727, "1": 0.14604, "2": 0.00323, "3": 0.00303, "4": 0.84043}}
+{"idx": "SCL_CHANDLER_00616~1", "qid": "chandler_group", "probs": {"0": 0.00188, "1": 0.97565, "2": 0.00657, "3": 0.00844, "4": 0.00745}}
+{"idx": "SCL_CHANDLER_00700~1", "qid": "chandler_group", "probs": {"0": 0.00243, "1": 0.97949, "2": 0.0066, "3": 0.00748, "4": 0.004}}
+{"idx": "SCL_CHANDLER_00777~1", "qid": "chandler_group", "probs": {"0": 0.00398, "1": 0.01782, "2": 0.00273, "3": 0.00257, "4": 0.9729}}
+{"idx": "SCL_CHANDLER_00784~1", "qid": "chandler_group", "probs": {"0": 0.99936, "1": 0.00018, "2": 0.0003, "3": 3e-05, "4": 0.00013}}
+{"idx": "SCL_CHANDLER_00816~1", "qid": "chandler_group", "probs": {"0": 0.00036, "1": 0.0008, "2": 0.99556, "3": 0.00232, "4": 0.00097}}
+{"idx": "SCL_CHANDLER_00844~1", "qid": "chandler_group", "probs": {"0": 0.00387, "1": 0.00929, "2": 0.03675, "3": 0.94787, "4": 0.00221}}
+{"idx": "SCL_CHANDLER_00870~1", "qid": "chandler_group", "probs": {"0": 0.00398, "1": 0.00544, "2": 0.80811, "3": 0.05854, "4": 0.12393}}
+{"idx": "SCL_CHANDLER_00911~1", "qid": "chandler_group", "probs": {"0": 0.9993, "1": 0.00018, "2": 0.00019, "3": 3e-05, "4": 0.0003}}
+{"idx": "SCL_WHO_00819~1", "qid": "who_vi_category", "probs": {"0": 0.1674, "1": 0.18969, "2": 0.40157, "3": 0.1674, "4": 0.06978, "5": 0.00271, "6": 0.00145}}
+{"idx": "SCL_WHO_00870~1", "qid": "who_vi_category", "probs": {"0": 0.05342, "1": 0.0998, "2": 0.27129, "3": 0.27129, "4": 0.21128, "5": 0.06053, "6": 0.0324}}
+{"idx": "SCL_EVS_00020~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.93399, "tap_inject": 0.01332, "outside_evs": 0.05269}}
+{"idx": "SCL_EVS_00070~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.0222, "tap_inject": 0.14476, "outside_evs": 0.83304}}
+{"idx": "SCL_EVS_00236~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.76496, "tap_inject": 0.01588, "outside_evs": 0.21916}}
+{"idx": "SCL_EVS_00361~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.74175, "tap_inject": 0.01744, "outside_evs": 0.24081}}
+{"idx": "SCL_EVS_00505~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.03074, "tap_inject": 0.54489, "outside_evs": 0.42436}}
+{"idx": "SCL_EVS_00509~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.01679, "tap_inject": 0.9168, "outside_evs": 0.06641}}
+{"idx": "SCL_EVS_00511~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.93133, "tap_inject": 0.00913, "outside_evs": 0.05954}}
+{"idx": "SCL_EVS_00588~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.02898, "tap_inject": 0.6595, "outside_evs": 0.31153}}
+{"idx": "SCL_EVS_00599~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.02106, "tap_inject": 0.89563, "outside_evs": 0.08331}}
+{"idx": "SCL_EVS_00707~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.00548, "tap_inject": 0.18143, "outside_evs": 0.8131}}
+{"idx": "SCL_EVS_00833~1", "qid": "evs_initial_management", "probs": {"vitrectomy": 0.0994, "tap_inject": 0.83228, "outside_evs": 0.06832}}
+{"idx": "SCL_CHANDLER_00785~1", "qid": "chandler_group", "probs": {"0": 0.00688, "1": 0.00346, "2": 0.39994, "3": 0.0078, "4": 0.58192}}
+{"idx": "SCL_WHO_00081~1", "qid": "who_vi_category", "probs": {"0": 0.00703, "1": 0.01688, "2": 0.09711, "3": 0.29913, "4": 0.20559, "5": 0.23296, "6": 0.1413}}
+{"idx": "SCL_WHO_00607~1", "qid": "who_vi_category", "probs": {"0": 0.02771, "1": 0.02158, "2": 0.0314, "3": 0.15945, "4": 0.15945, "5": 0.33755, "6": 0.26288}}
+{"idx": "QSYN_0081_002", "qid": "dx_leading", "probs": {"retinal_detachment": 0.28488, "wound_dehiscence": 0.32282, "corneal_abrasion": 0.0265, "hyphema": 0.3658}}
+{"idx": "QSYN_0161_003P", "qid": "dx_leading", "probs": {"dermatochalasis": 0.01622, "blepharochalasis_syndrome": 0.08237, "orbital_cellulitis": 0.11985, "thyroid_eye_disease": 0.78155}}
+{"idx": "QSYN_0280_002", "qid": "dx_leading", "probs": {"stargardt_s_disease": 0.03659, "best_disease": 0.00925, "congenital_zika_syndrome": 0.01048, "cobalamin_c_deficiency": 0.94368}}
+{"idx": "QSYN_0330_005", "qid": "dx_leading", "probs": {"normal_convergence_function": 0.0093, "convergence_insufficiency": 0.0417, "suppression": 0.949}}
+{"idx": "QSYN_0393_001", "qid": "dx_leading", "probs": {"punctal_stenosis": 0.01144, "eyelid_malposition": 0.00786, "canalicular_obstruction": 0.17891, "nasolacrimal_duct_obstruction": 0.8018}}
+{"idx": "QSYN_0469_007", "qid": "dx_leading", "probs": {"conjunctivitis": 0.01047, "elevated_episcleral_venous_pressure": 0.94251, "primary_open_angle_glaucoma": 0.03655, "episcleritis": 0.01047}}
+{"idx": "QSYN_0497_002", "qid": "dx_leading", "probs": {"squamous_cell_carcinoma": 0.00028, "schneiderian_papilloma": 0.00059, "esthesioneuroblastoma": 0.00026, "rhabdomyosarcoma": 0.99887}}
+{"idx": "QSYN_0497_004", "qid": "dx_leading", "probs": {"schneiderian_papilloma": 0.05192, "rhabdomyosarcoma": 0.01685, "esthesioneuroblastoma": 0.63247, "squamous_cell_carcinoma": 0.29876}}
+{"idx": "QSYN_0577_009", "qid": "dx_leading", "probs": {"neovascular_glaucoma": 0.22897, "ghost_cell_glaucoma": 0.48473, "hemolytic_glaucoma": 0.08423, "hemosiderotic_glaucoma": 0.20207}}
+{"idx": "QSYN_0606_004", "qid": "dx_leading", "probs": {"retinitis_pigmentosa": 0.0019, "cobblestone_degeneration": 0.00139, "choroideremia": 0.01239, "gyrate_atrophy": 0.98432}}
+{"idx": "QSYN_0637_001", "qid": "dx_leading", "probs": {"beta_blockers": 0.2015, "prostaglandin_analogs": 0.70331, "carbonic_anhydrase_inhibitors": 0.09518}}
+{"idx": "QSYN_0681_003", "qid": "dx_leading", "probs": {"sensory_esotropia": 0.01492, "pseudoesotropia": 0.00178, "infantile_esotropia": 0.26445, "congenital_sixth_nerve_palsy": 0.71885}}
+{"idx": "QSYN_0906_001", "qid": "dx_leading", "probs": {"retinoblastoma": 0.00059, "neoplastic_infiltrate": 0.00014, "myelinated_retinal_nerve_fiber_layer": 0.99919, "cotton_wool_spots": 8e-05}}
+{"idx": "QSYN_0955_008", "qid": "dx_leading", "probs": {"progressive_supranuclear_palsy": 0.99911, "parkinson_s_disease": 0.00034, "multiple_system_atrophy": 0.00055}}
+{"idx": "QSYN_1056_003", "qid": "dx_leading", "probs": {"paroxysmal_tonic_upgaze_syndrome": 0.17688, "oculogyric_crisis": 0.20043, "epileptic_seizure": 0.00534, "l_dopa_induced_ocular_dyskinesia": 0.61736}}
+{"idx": "QSYN_1073_003", "qid": "dx_leading", "probs": {"nutritional_optic_neuropathy": 0.99996, "cavernous_sinus_thrombosis": 3e-05, "idiopathic_intracranial_hypertension": 1e-05, "wernicke_encephalopathy": 0.0}}
+{"idx": "QSYN_1128_001", "qid": "dx_leading", "probs": {"neovascularization_of_the_disc": 0.01797, "optic_disc_drusen": 0.00101, "optociliary_shunt_vessels": 0.98102}}
+{"idx": "QSYN_1135_002", "qid": "dx_leading", "probs": {"hemangiopericytoma": 7e-05, "orbital_inflammatory_pseudotumor": 0.99984, "peripheral_nerve_sheath_tumor": 7e-05, "cavernous_venous_malformation": 2e-05}}
+{"idx": "QSYN_1156_008", "qid": "dx_leading", "probs": {"carcinoid_syndrome": 0.00458, "orbital_pheochromocytoma": 0.98953, "thyroid_eye_disease": 0.00588}}
+{"idx": "QSYN_1188_001", "qid": "dx_leading", "probs": {"isolated_horner_syndrome": 0.87705, "parkinson_sign": 0.0182, "pontine_lesion": 0.10475}}
+{"idx": "QSYN_1216_002", "qid": "dx_leading", "probs": {"papilledema": 0.61626, "optic_disc_drusen": 0.00996, "phoms": 0.37378}}
+{"idx": "QSYN_1569_001", "qid": "dx_leading", "probs": {"caroticocavernous_fistula": 0.00025, "orbital_pseudotumor": 0.00012, "orbital_tumors": 0.00014, "igg4_disease": 0.00052, "thyroid_eye_disease": 0.99898}}
+{"idx": "QSYN_0081_002~p", "qid": "dx_leading", "probs": {"retinal_detachment": 0.05756, "hyphema": 0.79462, "wound_dehiscence": 0.07391, "corneal_abrasion": 0.07391}}
+{"idx": "QSYN_0161_003P~p", "qid": "dx_leading", "probs": {"blepharochalasis_syndrome": 0.03209, "orbital_cellulitis": 0.02205, "dermatochalasis": 0.00811, "thyroid_eye_disease": 0.93775}}
+{"idx": "QSYN_0280_002~p", "qid": "dx_leading", "probs": {"cobalamin_c_deficiency": 0.90498, "stargardt_s_disease": 0.07429, "congenital_zika_syndrome": 0.01291, "best_disease": 0.00783}}
+{"idx": "QSYN_0330_005~p", "qid": "dx_leading", "probs": {"convergence_insufficiency": 0.57939, "suppression": 0.35142, "normal_convergence_function": 0.0692}}
+{"idx": "QSYN_0393_001~p", "qid": "dx_leading", "probs": {"nasolacrimal_duct_obstruction": 0.92733, "eyelid_malposition": 0.00909, "canalicular_obstruction": 0.05928, "punctal_stenosis": 0.00429}}
+{"idx": "QSYN_0497_002~p", "qid": "dx_leading", "probs": {"esthesioneuroblastoma": 0.00038, "squamous_cell_carcinoma": 0.00018, "schneiderian_papilloma": 0.0002, "rhabdomyosarcoma": 0.99924}}
+{"idx": "QSYN_0497_004~p", "qid": "dx_leading", "probs": {"esthesioneuroblastoma": 0.88577, "schneiderian_papilloma": 0.01115, "rhabdomyosarcoma": 0.03892, "squamous_cell_carcinoma": 0.06416}}
+{"idx": "QSYN_0577_009~p", "qid": "dx_leading", "probs": {"hemosiderotic_glaucoma": 0.02138, "ghost_cell_glaucoma": 0.04526, "hemolytic_glaucoma": 0.02423, "neovascular_glaucoma": 0.90913}}
+{"idx": "QSYN_0606_004~p", "qid": "dx_leading", "probs": {"gyrate_atrophy": 0.99859, "choroideremia": 0.0008, "cobblestone_degeneration": 0.00049, "retinitis_pigmentosa": 0.00012}}
+{"idx": "QSYN_0637_001~p", "qid": "dx_leading", "probs": {"carbonic_anhydrase_inhibitors": 0.0917, "beta_blockers": 0.03823, "prostaglandin_analogs": 0.87007}}
+{"idx": "QSYN_0681_003~p", "qid": "dx_leading", "probs": {"infantile_esotropia": 0.07461, "sensory_esotropia": 0.01469, "congenital_sixth_nerve_palsy": 0.90894, "pseudoesotropia": 0.00175}}
+{"idx": "QSYN_0906_001~p", "qid": "dx_leading", "probs": {"myelinated_retinal_nerve_fiber_layer": 0.99238, "cotton_wool_spots": 0.0007, "retinoblastoma": 0.00669, "neoplastic_infiltrate": 0.00023}}
+{"idx": "QSYN_0955_008~p", "qid": "dx_leading", "probs": {"multiple_system_atrophy": 0.00075, "parkinson_s_disease": 0.0008, "progressive_supranuclear_palsy": 0.99844}}
+{"idx": "QSYN_1056_003~p", "qid": "dx_leading", "probs": {"epileptic_seizure": 0.03154, "oculogyric_crisis": 0.29926, "paroxysmal_tonic_upgaze_syndrome": 0.11009, "l_dopa_induced_ocular_dyskinesia": 0.5591}}
+{"idx": "QSYN_1073_003~p", "qid": "dx_leading", "probs": {"cavernous_sinus_thrombosis": 6e-05, "nutritional_optic_neuropathy": 0.99963, "wernicke_encephalopathy": 0.00028, "idiopathic_intracranial_hypertension": 3e-05}}
+{"idx": "QSYN_1128_001~p", "qid": "dx_leading", "probs": {"optic_disc_drusen": 0.01704, "optociliary_shunt_vessels": 0.93046, "neovascularization_of_the_disc": 0.05249}}
+{"idx": "QSYN_1135_002~p", "qid": "dx_leading", "probs": {"orbital_inflammatory_pseudotumor": 0.99982, "hemangiopericytoma": 0.00012, "cavernous_venous_malformation": 5e-05, "peripheral_nerve_sheath_tumor": 0.0}}
+{"idx": "QSYN_1156_008~p", "qid": "dx_leading", "probs": {"thyroid_eye_disease": 0.0124, "carcinoid_syndrome": 0.00277, "orbital_pheochromocytoma": 0.98484}}
+{"idx": "QSYN_1188_001~p", "qid": "dx_leading", "probs": {"pontine_lesion": 0.1045, "isolated_horner_syndrome": 0.87493, "parkinson_sign": 0.02058}}
+{"idx": "QSYN_1216_002~p", "qid": "dx_leading", "probs": {"phoms": 0.77186, "papilledema": 0.17223, "optic_disc_drusen": 0.05591}}
+{"idx": "QSYN_1569_001~p", "qid": "dx_leading", "probs": {"thyroid_eye_disease": 0.99938, "orbital_pseudotumor": 0.00034, "caroticocavernous_fistula": 0.00018, "orbital_tumors": 5e-05, "igg4_disease": 6e-05}}
+{"idx": "DSYN_0088_715", "qid": "dx_leading", "probs": {"horner_syndrome": 0.99959, "oculomotor_nerve_palsy": 0.0003, "myasthenia_gravis": 0.00011, "aponeurotic_ptosis": 1e-05}}
+{"idx": "DSYN_0094_703", "qid": "dx_leading", "probs": {"pseudogerontoxon": 0.90677, "terrien_marginal_degeneration": 0.00889, "arcus_senilis": 0.08434}}
+{"idx": "DSYN_0109_711", "qid": "dx_leading", "probs": {"bosley_salih_alorainy_syndrome": 0.14774, "m_bius_syndrome": 0.00211, "athabascan_brainstem_dysgenesis_syndrome": 0.85016}}
+{"idx": "DSYN_0141_711", "qid": "dx_leading", "probs": {"regressed_neovascularization_of_disc": 0.99807, "bergmeister_papilla": 0.00193}}
+{"idx": "DSYN_0179_707", "qid": "dx_leading", "probs": {"radiation_retinopathy": 0.99994, "hypertensive_retinopathy": 5e-05, "branch_retinal_vein_occlusion": 1e-05, "ocular_contusion_or_retinal_trauma": 0.0}}
+{"idx": "DSYN_0188_702", "qid": "dx_leading", "probs": {"vzv_endotheliitis": 0.24991, "hsv_endotheliitis": 0.28319, "cmv_endotheliitis": 0.4669}}
+{"idx": "DSYN_0193_708", "qid": "dx_leading", "probs": {"spheroidal_degeneration": 0.0001, "calcific_band_keratopathy": 0.00038, "limbal_stem_cell_deficiency": 0.99943, "salzmann_nodular_degeneration": 7e-05, "ciprofloxacin_crystalline_deposits": 3e-05}}
+{"idx": "DSYN_0203_703", "qid": "dx_leading", "probs": {"iatrogenic_damage_previous_surgery_cancer_resect": 0.00049, "naso_ethmoidal_trauma_fractures": 0.00028, "age_related_laxity": 0.00049, "cicatricial_ectropion": 0.00025, "blepharophimosis_ptosis_epicanthus_inversus_synd": 0.9985}}
+{"idx": "DSYN_0209_701", "qid": "dx_leading", "probs": {"cervical_lymphadenitis": 0.00306, "transient_perivascular_inflammation_of_the_carot": 0.96016, "carotid_artery_dissection": 0.03286, "giant_cell_arteritis": 0.00392}}
+{"idx": "DSYN_0234_702", "qid": "dx_leading", "probs": {"visual_trailing_palinopsia": 0.97508, "monocular_diplopia": 0.00069, "binocular_diplopia_due_to_ocular_misalignment": 0.00129, "cerebral_polyopia": 0.02293}}
+{"idx": "DSYN_0333_709", "qid": "dx_leading", "probs": {"cornea_farinata": 0.06513, "deep_blue_dot_corneal_degeneration": 0.01453, "fleck_corneal_dystrophy": 0.01132, "punctate_dystrophy": 0.00999, "pre_descemet_corneal_dystrophy": 0.89904}}
+{"idx": "DSYN_0393_706", "qid": "dx_leading", "probs": {"eyelid_malposition": 0.00361, "canalicular_stenosis": 0.64583, "dacryocystitis": 0.00463, "nasolacrimal_duct_obstruction": 0.34569, "ocular_surface_disease": 0.00025}}
+{"idx": "DSYN_0432_708", "qid": "dx_leading", "probs": {"central_round_dome": 0.72827, "vertically_oriented_oval_shaped_dome": 0.04109, "central_serous_chorioretinopathy": 0.20865, "horizontally_oriented_oval_shaped_dome": 0.02199}}
+{"idx": "DSYN_0516_703", "qid": "dx_leading", "probs": {"warthin_tumor": 0.8808, "oncocytoma": 0.1192}}
+{"idx": "DSYN_0624_702", "qid": "dx_leading", "probs": {"darier_white_disease": 0.78963, "white_sponge_nevus": 0.0047, "vitamin_a_deficiency": 0.00603, "hereditary_benign_intraepithelial_dyskeratosis": 0.19965}}
+{"idx": "DSYN_0624_714", "qid": "dx_leading", "probs": {"darier_white_disease": 0.29902, "hereditary_benign_intraepithelial_dyskeratosis": 0.55865, "white_sponge_nevus": 0.07561, "vitamin_a_deficiency": 0.06672}}
+{"idx": "DSYN_0629_710", "qid": "dx_leading", "probs": {"contact_dermatitis": 0.00184, "infectious_keratitis": 0.00568, "herpes_zoster_ophthalmicus": 0.95543, "herpes_simplex_virus_keratitis": 0.03705}}
+{"idx": "DSYN_0646_703", "qid": "dx_leading", "probs": {"hurricane_keratopathy": 0.03716, "vortex_keratopathy": 0.9584, "punctate_keratopathy": 0.00444}}
+{"idx": "DSYN_0759_705", "qid": "dx_leading", "probs": {"corneal_scar": 0.00095, "epithelial_defect": 0.00084, "flap_buttonhole": 0.01587, "epithelial_basement_membrane_dystrophy": 0.00035, "flap_tear": 0.98198}}
+{"idx": "DSYN_0824_709", "qid": "dx_leading", "probs": {"central_serous_chorioretinopathy": 0.01929, "impending_macular_hole": 0.63879, "adult_vitelliform_macular_dystrophy": 0.34192}}
+{"idx": "DSYN_0897_701", "qid": "dx_leading", "probs": {"sebaceous_hyperplasia": 0.00586, "cowden_syndrome": 0.00356, "muir_torre_syndrome": 0.98601, "basal_cell_carcinoma": 0.00457}}
+{"idx": "DSYN_0913_702", "qid": "dx_leading", "probs": {"naion": 0.00089, "pion": 0.00353, "arteritic_aion": 0.97974, "temporal_arteritis": 0.01584}}
+{"idx": "DSYN_0941_701", "qid": "dx_leading", "probs": {"pulmonary_hypertension": 0.00146, "obesity_hypoventilation_syndrome": 0.96883, "obstructive_sleep_apnea": 0.01076, "idiopathic_intracranial_hypertension": 0.01774, "hypothyroidism": 0.00121}}
+{"idx": "DSYN_0959_701", "qid": "dx_leading", "probs": {"akinetic_mutism": 0.00218, "pure_word_deafness": 0.00028, "bilingual_aphasia": 0.00075, "pure_word_mutism": 0.00132, "alexia_without_agraphia": 0.99547}}
+{"idx": "DSYN_0971_707", "qid": "dx_leading", "probs": {"neurotrophic_keratitis_stage_i": 0.00762, "neurotrophic_keratitis_stage_ii": 0.00672, "bacterial_keratitis": 0.10516, "acanthamoeba_keratitis": 0.8805}}
+{"idx": "DSYN_1056_702", "qid": "dx_leading", "probs": {"oculogyric_crisis": 0.09945, "paroxysmal_tonic_upgaze_syndrome": 0.64851, "epileptic_seizures": 0.01346, "l_dopa_induced_ocular_dyskinesias": 0.23857}}
+{"idx": "DSYN_1091_704", "qid": "dx_leading", "probs": {"sca2": 0.19346, "sca1": 0.31896, "sca7": 0.05543, "sca3": 0.15067, "sca6": 0.28148}}
+{"idx": "DSYN_1144_701", "qid": "dx_leading", "probs": {"schwannoma": 0.00192, "melanoma": 0.00038, "rhabdomyosarcoma": 0.0015, "orbital_granular_cell_tumor": 0.9962}}
+{"idx": "DSYN_1144_705", "qid": "dx_leading", "probs": {"orbital_granular_cell_tumor": 0.00246, "alveolar_soft_part_sarcoma": 0.9931, "rhabdomyosarcoma": 0.00406, "schwannoma": 0.00038}}
+{"idx": "DSYN_1155_703", "qid": "dx_leading", "probs": {"orbital_meningioma": 0.00019, "plexiform_neurofibroma": 9e-05, "localized_neurofibroma": 0.00038, "optic_pathway_glioma": 0.99934}}
+{"idx": "DSYN_1293_704", "qid": "dx_leading", "probs": {"birth_trauma_forceps_injury": 7e-05, "megalocornea": 0.00034, "nasolacrimal_duct_obstruction": 0.99936, "primary_congenital_glaucoma": 0.00023}}
+{"idx": "DSYN_1309_702", "qid": "dx_leading", "probs": {"pseudoexfoliative_glaucoma": 0.10525, "primary_open_angle_glaucoma": 0.60567, "pigment_dispersion_syndrome": 0.2861, "amyloidosis": 0.00299}}
+{"idx": "DSYN_1315_702", "qid": "dx_leading", "probs": {"pseudostrabismus": 0.01275, "intermittent_esotropia": 0.37273, "accommodative_esotropia": 0.61452}}
+{"idx": "DSYN_1402_706", "qid": "dx_leading", "probs": {"hypermetric_saccades": 0.99974, "hypometric_saccades": 0.00026}}
+{"idx": "DSYN_1417_705", "qid": "dx_leading", "probs": {"sclerocornea": 0.4492, "peters_anomaly": 0.04178, "congenital_glaucoma": 0.50901}}
+{"idx": "DSYN_1503_712", "qid": "dx_leading", "probs": {"superior_oblique_myokymia": 0.22818, "heimann_bielschowsky_phenomenon": 0.04493, "ocular_neuromyotonia": 0.70284, "square_wave_jerks": 0.02405}}
+{"idx": "DSYN_1571_711", "qid": "dx_leading", "probs": {"non_arteritic_anterior_ischemic_optic_neuropathy": 0.99364, "nutritional_optic_neuropathy": 0.00192, "dominant_optic_atrophy": 0.00048, "leber_hereditary_optic_neuropathy": 0.00116, "tobacco_optic_neuropathy": 0.00279}}
+{"idx": "DSYN_1682_706", "qid": "dx_leading", "probs": {"wessely_immune_ring": 0.96993, "excimer_laser_induced_ring": 0.00396, "infectious_keratitis": 0.02585, "palytoxin_toxicity": 0.00025}}
+{"idx": "DSYN_1691_707", "qid": "dx_leading", "probs": {"krause_gland_ductal_cyst": 0.30894, "conjunctival_inclusion_cyst": 0.1003, "simple_dacryops": 0.01357, "wolfring_gland_ductal_cyst": 0.57718}}
+{"idx": "DSYN_1696_703", "qid": "dx_leading", "probs": {"implant_occlusion": 0.99923, "incorrect_placement_of_the_xen": 0.00049, "shallow_ac": 7e-05, "bleb_fibrosis": 0.0002}}
+{"idx": "EXT_D000080345_07", "qid": "dx_leading", "probs": {"familial_exudative_vitreoretinopathies": 0.99992, "hydrophthalmos": 4e-05, "aicardi_syndrome": 5e-05, "graves_ophthalmopathy": 0.0}}
+{"idx": "EXT_D057066_00", "qid": "dx_leading", "probs": {"glaucoma_neovascular": 0.03281, "low_tension_glaucoma": 0.95888, "optic_neuropathy_ischemic": 0.00732, "optic_disk_drusen": 0.00099}}
+{"idx": "EXT_D013494_08", "qid": "dx_leading", "probs": {"oculomotor_nerve_injuries": 0.00013, "tolosa_hunt_syndrome": 0.00012, "mobius_syndrome": 0.00019, "supranuclear_palsy_progressive": 0.99955}}
+{"idx": "EXT_D057092_00", "qid": "dx_leading", "probs": {"geographic_atrophy": 0.99991, "wet_macular_degeneration": 5e-05, "vitelliform_macular_dystrophy": 4e-05, "stargardt_disease": 0.0}}
+{"idx": "EXT_D015882_02", "qid": "dx_leading", "probs": {"retinal_vasculitis": 0.00132, "vitelliform_macular_dystrophy": 0.0003, "retinal_necrosis_syndrome_acute": 0.99721, "retinal_detachment": 0.00117}}
+{"idx": "EXT_D015354_02", "qid": "dx_leading", "probs": {"color_vision_defects": 0.0003, "photophobia": 0.00063, "susac_syndrome": 0.00026, "vision_low": 0.99882}}
+{"idx": "EXT2_D003235_16", "qid": "dx_leading", "probs": {"conjunctivitis_inclusion": 0.98712, "bacterial_conjunctivitis": 0.01243, "allergic_conjunctivitis": 0.00038, "acute_anterior_uveitis": 8e-05}}
+{"idx": "EXT2_D015715_01", "qid": "dx_leading", "probs": {"herpetic_keratitis": 0.00085, "corneal_edema": 0.99601, "fuchs_endothelial_dystrophy": 0.00247, "uveitis": 0.00066}}
+{"idx": "EXT2_D015823_14", "qid": "dx_leading", "probs": {"bacterial_keratitis_non_pseudomonal": 0.00067, "acanthamoeba_keratitis": 0.99889, "pseudomonas_aeruginosa_keratitis": 0.00038, "herpes_simplex_keratitis": 6e-05}}
+{"idx": "EXT2_D000853_14", "qid": "dx_leading", "probs": {"microphthalmos": 0.00205, "coloboma_of_the_globe": 0.00024, "congenital_cataract_with_lens_opacity": 0.00014, "anophthalmos": 0.99757}}
+{"idx": "EXT2_D000080345_00", "qid": "dx_leading", "probs": {"coats_disease": 0.00015, "familial_exudative_vitreoretinopathies": 0.99963, "diabetic_retinopathy": 0.00019, "rhegmatogenous_retinal_detachment": 3e-05}}
+{"idx": "EXT2_D022861_01", "qid": "dx_leading", "probs": {"chediak_higashi_syndrome": 0.08987, "hermanski_pudlak_syndrome": 0.75248, "oculocutaneous_albinism_type_1": 0.14817, "griscelli_syndrome": 0.00947}}
+{"idx": "EXT2_D049970_15", "qid": "dx_leading", "probs": {"graves_ophthalmopathy": 0.48438, "idiopathic_orbital_inflammation": 0.03097, "thyroid_eye_disease": 0.48438, "orbital_pseudotumor": 0.00027}}
+{"idx": "EXT2_D000080362_12", "qid": "dx_leading", "probs": {"juvenile_macular_dystrophy": 0.11515, "best_disease_best_vitelliform_dystrophy": 0.02569, "stargardt_disease": 0.85082, "adult_onset_foveomacular_vitelliform_dystrophy": 0.00834}}
+{"idx": "EXT2_D058494_00", "qid": "dx_leading", "probs": {"congenital_stationary_night_blindness": 0.00025, "lamellar_macular_dystrophy": 0.0003, "familial_progressive_spinal_muscular_atrophy": 0.00019, "walker_warburg_syndrome": 0.99927}}
+{"idx": "EXT2_D004483_07", "qid": "dx_leading", "probs": {"facial_nerve_palsy": 0.00293, "blepharitis": 0.00058, "laxity_of_the_eyelid": 0.07559, "ectropion": 0.9209}}
+{"idx": "EXT2_D000069282_03", "qid": "dx_leading", "probs": {"dacryocystitis": 0.00071, "allergic_conjunctivitis": 0.0002, "blepharitis": 0.00097, "canaliculitis": 0.99812}}
+{"idx": "EXT2_D007767_14", "qid": "dx_leading", "probs": {"allergic_conjunctivitis": 0.00049, "dacryocystitis": 0.0017, "blepharitis": 0.00159, "lacrimal_duct_obstruction": 0.99622}}
+{"idx": "EXT2_D060437_03", "qid": "dx_leading", "probs": {"vitreous_opacities": 0.00033, "posterior_capsule_rupture": 0.00591, "uveitis": 0.00046, "artificial_lens_implant_migration": 0.9933}}
+{"idx": "EXT2_D000081028_03", "qid": "dx_leading", "probs": {"toxic_optic_neuropathy": 0.99816, "optic_neuritis_demyelinating": 0.00091, "leber_hereditary_optic_neuropathy": 0.00091, "compressive_optic_neuropathy": 2e-05}}
+{"idx": "EXT2_D000080346_10", "qid": "dx_leading", "probs": {"branch_retinal_artery_occlusion": 0.00067, "hypertensive_retinopathy": 0.00028, "proliferative_diabetic_retinopathy": 0.00067, "retinal_arterial_macroaneurysm": 0.99839}}
+{"idx": "EXT2_D055955_14", "qid": "dx_leading", "probs": {"cogan_s_syndrome": 0.01793, "susac_syndrome": 0.9789, "multiple_sclerosis": 0.00275, "beh_et_s_disease": 0.00042}}
+{"idx": "EXT2_D015861_14", "qid": "dx_leading", "probs": {"retinal_neovascularization": 0.9843, "posterior_vitreous_detachment": 0.01239, "diabetic_macular_edema": 0.00215, "ocular_hypertension": 0.00115}}
+{"idx": "EXT2_D058456_11", "qid": "dx_leading", "probs": {"macular_telangiectasia_type_1": 0.00741, "coats_disease": 0.02013, "diabetic_retinopathy": 0.0024, "retinal_telangiectasis": 0.97006}}
+{"idx": "EXT2_D058456_18", "qid": "dx_leading", "probs": {"coats_disease": 0.04571, "retinal_telangiectasis": 0.91806, "macular_telangiectasia_type_1": 0.03141, "diabetic_retinopathy": 0.00482}}
+{"idx": "EXT2_C548027_03", "qid": "dx_leading", "probs": {"central_retinal_vein_occlusion": 0.00438, "macular_telangiectasia_type_2": 0.10614, "idiopathic_juxtafoveal_retinal_telangiectasia": 0.88872, "diabetic_maculopathy": 0.00076}}
+{"idx": "EXT2_C562701_03", "qid": "dx_leading", "probs": {"best_vitelliform_macular_dystrophy": 0.02151, "fundus_flavimaculatus": 0.09639, "fleck_retina_of_kandori": 0.80704, "stargardt_disease": 0.07507}}
+{"idx": "EXT2_C563400_18", "qid": "dx_leading", "probs": {"leber_congenital_amaurosis": 0.00751, "usher_syndrome_type_id": 0.98315, "retinitis_pigmentosa_autosomal_recessive": 0.00851, "cone_rod_dystrophy": 0.00084}}
+{"idx": "EXT2_C564232_12", "qid": "dx_leading", "probs": {"open_angle_glaucoma": 0.23995, "normal_tension_glaucoma": 0.0197, "glaucoma_and_sleep_apnea": 0.7391, "pseudoexfoliation_syndrome": 0.00126}}
+{"idx": "EXT2_C564788_11", "qid": "dx_leading", "probs": {"vogt_koyanagi_harada_disease": 0.0001, "acute_zonal_occult_outer_retinopathy": 0.00015, "tapetoretinal_degeneration_with_ataxia": 0.99973, "adult_onset_foveomacular_vitelliform_dystrophy": 2e-05}}
+{"idx": "EXT2_C565686_16", "qid": "dx_leading", "probs": {"optic_nerve_coloboma": 0.00066, "aplasia_of_the_retinal_pigment_epithelium": 0.00298, "coloboma_of_macula_and_skeletal_anomalies": 0.99625, "morning_glory_disc_anomaly": 0.0001}}
+{"idx": "EXT2_C566222_11", "qid": "dx_leading", "probs": {"spiral_strabismus": 0.00685, "bpes_with_duane_retraction_syndrome": 0.79142, "concomitant_esotropia": 0.00163, "paralytic_sixth_nerve_palsy": 0.2001}}
+{"idx": "EXT2_C566347_11", "qid": "dx_leading", "probs": {"blepharochalasis": 0.02569, "miescher_s_prurigo_nodularis": 0.00834, "eccrine_syringofibroadenomatosis_with_eyelid_abn": 0.96411, "xanthelasma_palpebrarum": 0.00186}}
+{"idx": "EXT2_C566452_09", "qid": "dx_leading", "probs": {"granular_corneal_dystrophy": 0.02268, "fuchs_endothelial_dystrophy": 0.01071, "corneal_dystrophy_congenital_stromal": 0.96449, "vogt_koyanagi_harada_disease": 0.00211}}
+{"idx": "EXT2_C566533_00", "qid": "dx_leading", "probs": {"congenital_cataract": 0.00145, "macrophthalmia_colobomatous_with_microcornea": 0.96255, "axial_myopia": 0.03294, "nanophthalmos": 0.00306}}
+{"idx": "EXT2_C566651_00", "qid": "dx_leading", "probs": {"iridocorneal_endothelial_syndrome": 0.00458, "uveitis_with_anterior_segment_inflammation": 0.00096, "pseudoexfoliation_syndrome": 0.00519, "iris_pigment_epithelium_anomalies": 0.98927}}
+{"idx": "EXT2_C566651_03", "qid": "dx_leading", "probs": {"uveitis_with_anterior_segment_inflammation": 0.00459, "pseudoexfoliation_syndrome": 0.00217, "iris_pigment_epithelium_anomalies": 0.99155, "iridocorneal_endothelial_syndrome": 0.00169}}
+{"idx": "EXT2_C567416_07", "qid": "dx_leading", "probs": {"idiopathic_orbital_inflammation": 0.05099, "orbital_myositis": 0.22853, "tolosa_hunt_syndrome": 0.01655, "oculoauricular_syndrome": 0.70392}}
+{"idx": "EXT2_C567518_09", "qid": "dx_leading", "probs": {"stargardt_disease": 0.00586, "bestrophinopathy": 0.98492, "central_serous_chorioretinopathy": 0.00852, "age_related_macular_degeneration": 0.0007}}
+{"idx": "EXT2_C580012_00", "qid": "dx_leading", "probs": {"congenital_cranial_dysinnervation_disorders": 0.26144, "congenital_fibrosis_of_the_extraocular_muscles": 0.71067, "duane_retraction_syndrome": 0.00895, "restrictive_myopathy": 0.01894}}

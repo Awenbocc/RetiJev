@@ -1,0 +1,97 @@
+RetiJev GitHub overview — image-generation prompts
+The base generation and cleanup prompts below are adapted for the current RetiJev name.
+The exact title-rename edit prompts are recorded at the end of this file.
+Tool: built-in image_gen.imagegen (generation, followed by editorial cleanup)
+Final asset: docs/assets/retijev-overview.png
+Content sources: README.md, retijev/demo.py, examples/dr_grading.json, examples/next_investigation.json
+
+GENERATION PROMPT
+
+Use case: ads-marketing
+Asset type: final GitHub README hero and complete project overview for the existing open-source project RetiJev. Wide landscape 16:9, high resolution, exceptional crafted quality, crisp readable English typography even when displayed at 900px wide.
+Primary request: a cool, polished ophthalmology AI research project hero integrating an Eye+ visual emblem and a clinical ophthalmologist, while clearly showing every supported task family and answer format.
+
+Scene/backdrop: elegant midnight navy research studio, restrained cyan and teal illumination with a little ice-blue, refined dimensional depth, subtle technical texture, generous calm negative space. Beautiful editorial composition, not a busy sci-fi movie poster.
+Subject and visual hierarchy: Huge correctly spelled title "RetiJev" at upper left (R-e-t-i-J-e-v), subtitle "Small decision models for ophthalmology". Three tasteful model-size pills "0.8B" "2B" "9B" near the title.
+At the left lower hero area, a believable adult ophthalmologist in a white clinical coat, waist-up, attentive calm expression, holding a tablet with abstract patient notes. Mix lifelike character rendering and premium clean 3D illustration, cool rim lighting, natural face and hands. Give the physician a small eye-and-plus clinical emblem. The physician should read as an ophthalmologist, not a robotic superhero.
+At the center, a sculptural luminous stylized human eye outline with a plus sign integrated into its corner, a premium Eye+ emblem hovering above a small subtle model core. Render exact short wordmark "Eye+" nearby. The eye is a brand/context symbol. Show a small abstract text-note icon feeding the core, not an eye image scan as an input. RetiJev actually takes patient case TEXT, not retinal photographs or OCT images.
+The right half is a beautifully aligned clear stack of THREE task panels connected as parallel branches from the single center core. Equal visual emphasis. Distinct line icons, clean light type, restrained semi-transparent dark panels, fine colored edges. Each task panel title must be large and exact:
+"DECISION"
+"Investigation / Management"
+"Urgency / Referral"
+Use a branching-path icon and subtle short probability bars.
+
+"DIAGNOSIS"
+"Candidate likelihoods"
+"Leading diagnosis"
+Use a differential-list icon and subtle short probability bars.
+
+"GRADING"
+"DR / AMD / ROP / TED"
+"Clinical severity scales"
+Use an ordered-step or ascending-grade icon, showing discrete grading, not a growth performance graph.
+
+Across a clear bottom strip, show the actual data flow with thin arrows and these exact labels: "CASE TEXT" -> "ENCODE ONCE" -> "ANSWER PROBABILITIES". The three task panels branch from that same shared encoding; do not make the tasks sequential.
+Below or in the same well-spaced footer area include the heading "ANSWER TYPES" and THREE readable compact chips, with exact text:
+"noul  |  Yes / No"
+"choice  |  One of N"
+"score  |  Ordered levels"
+noul is an unusual literal code identifier, spelled n-o-u-l; preserve exactly.
+Bottom edge small but readable accurate project positioning: "Local inference" and "Research use only". Research use only belongs in a discreet typographic footer, not a large warning banner.
+
+Style: premium medical AI product branding, sophisticated cohesive 3D illustration plus extremely crisp infographic typography. Clinical human warmth with a sharp technical visual identity. Strong hierarchy, balanced asymmetry, dimensional eye symbol, restrained bloom. Dark navy background, white clinical coat, glowing cyan eye motif, readable bright near-white text. Fewer larger elements, flawless alignment and immaculate spacing.
+Text constraints: Render the quoted wording exactly, no invented slogans, no additional labels, no gibberish, no duplicate task cards, no watermark or stock logo. Do not claim validated clinical use, automated treatment, benchmark scores, or patient-image processing. All labels must be easy to read; do not cram the footer. The main title, clinician, Eye+ motif, and ALL THREE task families plus ALL THREE answer types must fit inside the canvas with comfortable margins.
+
+FINAL EDIT PROMPT
+
+Edit the supplied RetiJev GitHub overview image. Make ONLY an editorial cleanup of unrequested decorative microcopy and arbitrary example numbers. Preserve the existing gorgeous composition, dimensions and aspect ratio, all colors, the exact RetiJev title and subtitle, the ophthalmologist's face and hands and tablet and white coat, the central glowing Eye+ emblem, model-size badges, all three task cards, their arrows and line icons, and the bottom workflow and answer-type chips.
+
+Required local changes:
+1. Remove ALL the tiny promotional slogans in the top right background, including the cluster "OPHTHALMOLOGY / HUMAN INSIGHT / REAL PROGRESS" and "A / CLEARER / TOMORROW / TOGETHER". Fill seamlessly with the existing subtle dark blue background and network globe texture.
+2. Remove the left wall poster text "PEOPLE / SCIENCE / CLEARER / VISION". Make the background poster plain and understated, matching the existing clinic.
+3. On the physician's coat, preserve the small eye-plus badge, but remove the tiny "Better Questions Brighter Sight" slogan underneath. Continue the white fabric naturally.
+4. Make all visible book spines blank, with their physical books unchanged.
+5. Remove the nine numeric sample probabilities at the right edges of the three task cards (0.72, 0.21, 0.07, 0.62, 0.24, 0.08, 0.68, 0.22, 0.10), preserving the existing colorful probability bars as simple illustrative graphics.
+
+Keep all real project information absolutely unchanged and legible:
+"RetiJev"
+"Small decision models for ophthalmology"
+"0.8B" "2B" "9B"
+"Patient case (text notes)"
+"Eye+"
+"ONE ENCODING" "MULTIPLE ANSWERS"
+"DECISION" "Investigation / Management" "Urgency / Referral"
+"DIAGNOSIS" "Candidate likelihoods" "Leading diagnosis"
+"GRADING" "DR / AMD / ROP / TED" "Clinical severity scales"
+"CASE TEXT" "ENCODE ONCE" "ANSWER PROBABILITIES"
+"ANSWER TYPES" "noul | Yes / No" "choice | One of N" "score | Ordered levels"
+"Local inference" "Research use only"
+
+This image is a research software overview; the patient input is text and the eye is just a clinical brand emblem. Add no new text, no new elements, no warning banners, no slogans, no numerical claims. Preserve the polished readable overall design.
+
+
+TITLE-RENAME EDIT PROMPTS
+
+Tool: built-in image_gen.imagegen (one edit per variant).
+Only the top-left project title is changed; the central Eye+ wordmark is preserved.
+Output variants: docs/assets/retijev-overview-v1.png and docs/assets/retijev-overview.png.
+
+ORIGINAL VARIANT TITLE EDIT
+
+Use case: text-localization.
+Edit target: the supplied original variant of the EyeJev project overview.
+Make exactly one change: replace the large project title at the top left, "EyeJev", with "RetiJev", spelled R-e-t-i-J-e-v, preserving capitalization exactly.
+Set "Reti" in the existing cool white and "Jev" in the existing cyan gradient, with the same bold dimensional sans-serif lettering, cap height, baseline, alignment, polish and lighting. Adjust only the title's letter spacing or width as needed to fit comfortably; preserve its left edge and the subtitle's placement. The new word must read "RetiJev", not RetiJevv, RetijEv, EyeJev, or any other spelling.
+Keep EVERY OTHER part of this image unchanged: same full canvas, aspect ratio and dimensions, same ophthalmologist face and hands, clinic, books and original small slogans, all illustrative probability numbers, all task cards and labels, the 0.8B / 2B / 9B model badges, every arrow and workflow panel, footer text, "noul", "choice", "score", dark blue background and network globe.
+Especially preserve the central eye-plus emblem and the literal wordmark "Eye+" unchanged. Eye+ is distinct from the project title and must remain Eye+.
+Do not regenerate or redesign the scene. Do not crop. Do not remove or add anything. Only replace the six-letter top-left title with the seven-letter title "RetiJev".
+
+CLEANED VARIANT TITLE EDIT
+
+Use case: text-localization.
+Edit target: the supplied CLEANED variant of the EyeJev project overview, which has no probability numbers or decorative slogans.
+Make exactly one change: replace the large project title at the top left, "EyeJev", with "RetiJev", spelled R-e-t-i-J-e-v, preserving capitalization exactly.
+Set "Reti" in the existing cool white and "Jev" in the existing cyan gradient, with the same bold dimensional sans-serif lettering, cap height, baseline, alignment, polish and lighting. Adjust only the title's letter spacing or width as needed to fit comfortably; preserve its left edge and the subtitle's placement. The new word must read "RetiJev", not RetiJevv, RetijEv, EyeJev, or any other spelling.
+Keep EVERY OTHER part of this image unchanged: same full canvas, aspect ratio and dimensions, same ophthalmologist face and hands, clinic, books with blank spines, blank wall poster, blank coat below the small eye badge, task cards WITHOUT numerical labels, all task labels and icons, the 0.8B / 2B / 9B model badges, every arrow and workflow panel, footer text, "noul", "choice", "score", dark blue background and network globe with NO decorative slogans.
+Especially preserve the central eye-plus emblem and the literal wordmark "Eye+" unchanged. Eye+ is distinct from the project title and must remain Eye+.
+Do not regenerate or redesign the scene. Do not crop. Do not remove or add anything. Do not reintroduce any removed slogans or arbitrary numbers. Only replace the six-letter top-left title with the seven-letter title "RetiJev".

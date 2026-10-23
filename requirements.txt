@@ -1,0 +1,8 @@
+# Install a PyTorch build that matches your CUDA first (https://pytorch.org), then:
+#   pip install -r requirements.txt
+# causal-conv1d is strongly recommended on GPU and usually has to be built against your CUDA (see README).
+torch>=2.6
+transformers>=5.17,<6
+peft>=0.21
+flash-linear-attention>=0.5
+medjev @ git+https://github.com/JunMa11/MedJev@22291436ead34ce4cc3386441512c25ed5d3d715
